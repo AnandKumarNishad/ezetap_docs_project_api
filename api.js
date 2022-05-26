@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 app.use(function (req, res, next) {
     const corsWhiteList = [
         "https://ezetap-docs-project-api.herokuapp.com",
-        "http://localhost:3000",
+        "http://localhost:3000/",
         "http://localhost:3001",
     ]
 
