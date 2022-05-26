@@ -47,6 +47,6 @@ app.get("/data", (req, res) => {
         console.log("Data Not Found")
         res.sendStaus(500)
     } else {
-        res.send(jsondata.rows)
+        res.send(jsondata)
     }
 })
