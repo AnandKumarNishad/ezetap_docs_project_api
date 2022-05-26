@@ -13,7 +13,7 @@ app.use(function (req, res, next) {
         "http://localhost:3001",
     ]
 
-    if(corsWhiteList.indexOf(req.header.origin) !== -1){
+    // if(corsWhiteList.indexOf(req.header.origin) !== -1){
         
         // Website you wish to allow to connect
         res.setHeader('Access-Control-Allow-Origin', req.headers.origin);
@@ -30,7 +30,7 @@ app.use(function (req, res, next) {
 
         // Pass to next layer of middleware
         console.log(origin);
-    }
+    // }
     next();
 });
 
