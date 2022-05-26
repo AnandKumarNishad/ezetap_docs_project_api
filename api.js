@@ -7,6 +7,7 @@ const app = express()
 app.use(bodyParser.json())
 
 app.use(function (req, res, next) {
+    console.log(req.headers)
     const corsWhiteList = [
         "https://ezetap-docs-project-api.herokuapp.com",
         "http://localhost:3000",
