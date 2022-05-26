@@ -38,7 +38,11 @@ app.listen(PORT,() => {
     console.log(`Listening on port ${PORT}`)
 })
 
-app.get("/", (res, req) => {
+app.get("/" , (req, res) => {
+    res.send("Go to /data")
+})
+
+app.get("/data", (req, res) => {
     if(jsondata === ""){
         console.log("Data Not Found")
         res.sendStaus(500)
