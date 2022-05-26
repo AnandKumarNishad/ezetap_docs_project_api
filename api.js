@@ -7,7 +7,8 @@ app.use(bodyParser.json())
 app.use(function (req, res, next) {
     const corsWhiteList = [
         "http://localhost:3000",
-        "http://localhost:3001"
+        "http://localhost:3001",
+        "https://ezetap-docs-project-api.herokuapp.com/"
     ]
 
     if(corsWhiteList.indexOf(req.header.origin) !== -1){
