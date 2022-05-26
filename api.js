@@ -8,9 +8,9 @@ app.use(bodyParser.json())
 
 app.use(function (req, res, next) {
     const corsWhiteList = [
+        "https://ezetap-docs-project-api.herokuapp.com",
         "http://localhost:3000",
         "http://localhost:3001",
-        "https://ezetap-docs-project-api.herokuapp.com/"
     ]
 
     if(corsWhiteList.indexOf(req.header.origin) !== -1){
@@ -47,6 +47,6 @@ app.get("/data", (req, res) => {
         console.log("Data Not Found")
         res.sendStaus(500)
     } else {
-        res.send(jsondata)
+        res.send(jsondata.rows)
     }
 })
