@@ -7,14 +7,13 @@ const app = express()
 app.use(bodyParser.json())
 
 app.use(function (req, res, next) {
-    console.log(req.headers)
     const corsWhiteList = [
         "https://ezetap-docs-project-api.herokuapp.com",
         "http://localhost:3000",
         "http://localhost:3001",
     ]
 
-    // if(corsWhiteList.indexOf(req.header.origin) !== -1){
+    if(corsWhiteList.indexOf(req.header.origin) !== -1){
         
         // Website you wish to allow to connect
         res.setHeader('Access-Control-Allow-Origin', req.headers.origin);
@@ -30,8 +29,7 @@ app.use(function (req, res, next) {
         //res.setHeader('Access-Control-Allow-Credentials', true);
 
         // Pass to next layer of middleware
-        console.log(origin);
-    // }
+    }
     next();
 });
 
