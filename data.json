@@ -1,0 +1,70 @@
+{
+    "data": {
+        "topNavbar": [
+            {
+                "logoURL": "/images/ezetap_logo.gif",
+                "logoURLAlt": "Logo"
+            },
+            {
+                "searchBarPLaceholder": "Search the documentation",
+                "searchIcon": "/images/search-icon.svg",
+                "searchIconAlt": "Search Icon",
+                "infoIcon": "/images/info-icon.svg",
+                "infoIconAlt": "Info Icon"            
+            },
+            {
+                "firstBtnText": "Log In",
+                "secondBtnText": "Sign Up"
+            }
+        ],
+        "sideNavbar": [
+            {
+                "type": "Home",
+                "icon": "/images/home.svg",
+                "iconAlt": "Home Icon",
+                "text": "Home",
+                "route": "/"
+            },
+            {
+                "type": "GetStarted",
+                "icon": "/images/getStarted.svg",
+                "iconAlt": "GetStarted Icon",
+                "text": "Get Started",
+                "route": "/getStarted"
+            },
+            {
+                "type": "Payments",
+                "icon": "/images/payments.svg",
+                "iconAlt": "Payments Icon",
+                "text": "Payments",
+                "route": "/payment"
+            },
+            {
+                "type": "Banking",
+                "icon": "/images/banking.svg",
+                "iconAlt": "Banking Icon",
+                "text": "Banking Plus"
+            },
+            {
+                "type": "Partners",
+                "icon": "/images/partners.svg",
+                "iconAlt": "partners Icon",
+                "text": "Partners"
+            },
+            {
+                "type": "DevTools",
+                "icon": "/images/DeveloperTools.svg",
+                "iconAlt": "devTools Icon",
+                "text": "Develper Tools"
+            }
+        ],
+        "headerArea": [
+            {
+                "headerTitle": "Documentation",
+                "headerText": " Not here for integration. Looking for refund? ",
+                "headerArrowIcon": "/images/arrow.svg",
+                "headerArrowIconAlt": "black arrow"
+            }
+        ]
+    }
+}
