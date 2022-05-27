@@ -2,9 +2,18 @@ const express = require("express");
 const jsondata = require("./connection");
 const bodyParser = require("body-parser");
 const res = require("express/lib/response");
+const cors = require('cors');
 
 const app = express()
 app.use(bodyParser.json())
+
+app.use(cors({
+    origin:[
+        "https://ezetap-docs-project-api.herokuapp.com",
+        "http://localhost:3000",
+        "http://localhost:3001",
+    ]
+}))
 
 app.use(function (req, res, next) {
     const corsWhiteList = [
