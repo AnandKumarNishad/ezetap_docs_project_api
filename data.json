@@ -60,10 +60,10 @@
         ],
         "headerArea": [
             {
-                "headerTitle": "Documentation",
-                "headerText": " Not here for integration. Looking for refund? ",
-                "headerArrowIcon": "/images/arrow.svg",
-                "headerArrowIconAlt": "black arrow"
+                "headerTitle": "Single integration for all payments.",
+                "headerText": " Accept payments in any form— online or in-person, anywhere, from your own Android app. ",
+                "headerHeroImg": "/images/hero-2.svg",
+                "headerArrowIconAlt": "heroImg"
             }
         ]
     }
