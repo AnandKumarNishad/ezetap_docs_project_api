@@ -46,10 +46,10 @@
                 "text": "Banking Plus"
             },
             {
-                "type": "Partners",
-                "icon": "/images/partners.svg",
-                "iconAlt": "partners Icon",
-                "text": "Partners"
+                "type": "SDK_In",
+                "icon": "/images/integration.svg",
+                "iconAlt": "SDK Integration Icon",
+                "text": "SDK Integration"
             },
             {
                 "type": "DevTools",
