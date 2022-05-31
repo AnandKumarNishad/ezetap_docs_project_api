@@ -74,6 +74,42 @@
                             "title3": "Merchant Portal"
                         }
                     }
+                },
+                {
+                    "cardFront": {
+                        "sdkImg": "/images/sdk.svg",
+                        "sdkImgAlt": "SDK Icon",
+                        "title": "Increase Efficiency & Reduce Cost"                    
+                    },
+                    "cardBack": {
+                        "sdkImg": "/images/sdk2.svg",
+                        "sdkImgAlt": "SDK Icon",
+                        "title": "Increase Efficiency & Reduce Cost",
+                        "backtext": "With easy payment integration into your IT systems, automate reconciliations and settle transactions easily.",
+                        "listlink": {
+                            "title1": "Payment Integration",
+                            "title2": "Payment Reconciliation",
+                            "title3": "Multi-TID"
+                        }
+                    }
+                },
+                {
+                    "cardFront": {
+                        "sdkImg": "/images/sdk.svg",
+                        "sdkImgAlt": "SDK Icon",
+                        "title": "Accelerate Sales"                    
+                    },
+                    "cardBack": {
+                        "sdkImg": "/images/sdk2.svg",
+                        "sdkImgAlt": "SDK Icon",
+                        "title": "Accelerate Sales",
+                        "backtext": "Upsell easily using instant and hassle-free EMI options. Use My Khaata to digitally record credit sales.",
+                        "listlink": {
+                            "title1": "EMI",
+                            "title2": "Loyalty",
+                            "title3": "My Khaata"
+                        }
+                    }
                 }
             ]
         }
