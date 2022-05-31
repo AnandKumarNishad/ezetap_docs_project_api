@@ -52,6 +52,30 @@
                 "headerHeroImg": "/images/hero-2.svg",
                 "headerArrowIconAlt": "heroImg"
             }
-        ]
+        ],
+        "cardsSection": {
+            "conhead": "MAKING PAYMENTS",
+            "conheadspan": "DO MORE FOR YOUR BUSINESS",
+            "cards": [
+                {
+                    "cardFront": {
+                        "sdkImg": "/images/sdk.svg",
+                        "sdkImgAlt": "SDK Icon",
+                        "title": "SDK Integration"                    
+                    },
+                    "cardBack": {
+                        "sdkImg": "/images/sdk2.svg",
+                        "sdkImgAlt": "SDK Icon",
+                        "title": "SDK Integration",
+                        "backtext": "Easy-to-include libraries and modular code packages. No-fuss integration to get your payments up in no time at all.",
+                        "listlink": {
+                            "title1": "Push To Pay",
+                            "title2": "Smart Charge Slips",
+                            "title3": "Merchant Portal"
+                        }
+                    }
+                }
+            ]
+        }
     }
 }
