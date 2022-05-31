@@ -33,29 +33,16 @@
                 "route": "/getStarted"
             },
             {
-                "type": "Payments",
-                "icon": "/images/payments.svg",
-                "iconAlt": "Payments Icon",
-                "text": "Payments",
-                "route": "/payment"
-            },
-            {
-                "type": "Banking",
-                "icon": "/images/banking.svg",
-                "iconAlt": "Banking Icon",
-                "text": "Banking Plus"
-            },
-            {
                 "type": "SDK_In",
                 "icon": "/images/integration.svg",
                 "iconAlt": "SDK Integration Icon",
                 "text": "SDK Integration"
             },
             {
-                "type": "DevTools",
-                "icon": "/images/DeveloperTools.svg",
-                "iconAlt": "devTools Icon",
-                "text": "Develper Tools"
+                "type": "API",
+                "icon": "/images/apiIcon.svg",
+                "iconAlt": "API Icon",
+                "text": "API Documentation"
             }
         ],
         "headerArea": [
