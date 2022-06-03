@@ -1,5 +1,4 @@
-import params from "./parameter.json";
-
+const params = require("./parameter.json");
 const express = require("express");
 const jsondata = require("./connection");
 const bodyParser = require("body-parser");
