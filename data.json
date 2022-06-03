@@ -126,6 +126,13 @@
                     }
                 }
             }
-        ]
+        ],
+        "APIDetails": {
+            "title": "API Details",
+            "titleText": "We have a set of APIs available to enable integration with billing system. Below are the details of these APIs.",
+            "APITypes": [
+                
+            ]
+        }
     }
 }

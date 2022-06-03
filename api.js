@@ -1,8 +1,11 @@
+import params from "./parameter.json";
+
 const express = require("express");
 const jsondata = require("./connection");
 const bodyParser = require("body-parser");
 const res = require("express/lib/response");
 const cors = require('cors');
+
 
 const app = express()
 app.use(bodyParser.json())
@@ -54,8 +57,17 @@ app.listen(PORT,() => {
 app.get("/", (req, res) => {
     if(jsondata === ""){
         console.log("Data Not Found")
-        res.sendStaus(500)
+        res.sendStatus(500)
     } else {
         res.send(jsondata)
+    }
+})
+
+app.get("/params", (req, res) => {
+    if(jsondata === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(params)
     }
 })

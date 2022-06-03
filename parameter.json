@@ -1,0 +1,24 @@
+{
+    "params": [
+        { "Parameter": "appKey", "Datatype": "String(50)", "Description": "APP key shared by Ezetap (Mandatory)" },
+        { "Parameter": "pushTo", "Datatype": "Json with “deviceId” as String (250)", "Description": "PushTo is a json with destination info like Device id of the pos on which notification will be sent (Mandatory) Please refer the syntax in Sample request 'pushTo': { 'deviceId': '<device serial number>|ezetap_android'}}" },
+        { "Parameter": "username", "Datatype": "String(20)", "Description": "Username must be passed (Mandatory)" },
+        { "Parameter": "Description", "Datatype": "String(50)", "Description": "It describes the notification purpose (Optional)" },
+        { "Parameter": "amount", "Datatype": "BigDecimal", "Description": "Transaction amount (Mandatory)" },
+        { "Parameter": "amountCashBack", "Datatype": "BigDecimal", "Description": "CashBack amount if required (Optional)" },
+        { "Parameter": "amountAdditional", "Datatype": "BigDecimal", "Description": "Additional Amount if required (Optional)" },
+        { "Parameter": "externalRefNumber", "Datatype": "String", "Description": "Reference number of the bill (Mandatory). This must be unique for every transaction." },
+        { "Parameter": "customerMobileNumber", "Datatype": "String", "Description": "Customer mobile number (Optional)" },
+        { "Parameter": "customerEmail", "Datatype": "String", "Description": "Customer’s email id (Optional)" },
+        { "Parameter": "customerName", "Datatype": "String", "Description": "Customer’s Name (Optional)" },
+        { "Parameter": "accountLabels", "Datatype": "List of Strings", "Description": "Labels is the list of tags. It is used for passing MID/TID labels in multi-TID case (Optional)" },
+        { "Parameter": "externalRefNumber2", "Datatype": "String", "Description": "Optional" },
+        { "Parameter": "externalRefNumber3", "Datatype": "String", "Description": "Optional" },
+        { "Parameter": "externalRefNumber4", "Datatype": "String", "Description": "Optional" },
+        { "Parameter": "externalRefNumbers", "Datatype": "Set of Strings", "Description": "Optional" },
+        { "Parameter": "additionalData", "Datatype": "Json String", "Description": "AdditionalData is json (Optional)" },
+        { "Parameter": "orgCode", "Datatype": "String", "Description": "Merchant’s orgCode (Optional)" },
+        { "Parameter": "paymentBy", "Datatype": "String", "Description": "For service fees configuration, this is DEBIT|CREDIT (Optional)" },
+        { "Parameter": "paymentMode", "Datatype": "String", "Description": "For service fees configuration, this is CARD (Optional)" }
+    ]
+}
