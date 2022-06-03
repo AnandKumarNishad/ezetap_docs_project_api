@@ -64,7 +64,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/params", (req, res) => {
-    if(jsondata === ""){
+    if(params === ""){
         console.log("Data Not Found")
         res.sendStatus(500)
     } else {
