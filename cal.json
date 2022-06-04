@@ -1,0 +1,65 @@
+{
+    "data": {
+        "header": {
+            "headerImg": "/images/ezetap_logo.gif",
+            "headerImgAlt": "Ezetap Logo",
+            "headerTitle": "Status Dashboard",
+            "headerText": "This page provides status information on the service. Check back here to view the current status of the services listed below. If you are experiencing an issue not listed here, please contact Support. Learn more about what's posted on the dashboard in this FAQ."
+        },
+        "tableGrid": {
+            "tableHead": [
+                {
+                    "theader": "30 May"
+                },
+                {
+                    "theader": "31"
+                },
+                {
+                    "theader": "1 June"
+                },
+                {
+                    "theader": "2"
+                },
+                {
+                    "theader": "3"
+                },
+                {
+                    "theader": "4"
+                },
+                {
+                    "theader": "5"
+                },
+                {
+                    "theader": "6"
+                }
+            ],
+            "tableBody": [
+                {
+                    "tbody": "Admin Console"
+                },
+                {
+                    "tbody": " "
+                },
+                {
+                    "tbody": " "
+                },
+                {
+                    "tbody": " "
+                },
+                {
+                    "tbody": " "
+                },
+                {
+                    "tbody": " "
+                },
+                {
+                    "tbody": " "
+                },
+                {
+                    "tbody": " "
+                }
+            ]
+        }
+
+    }
+}
