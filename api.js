@@ -4,6 +4,7 @@ const jsondata = require("./connection");
 const bodyParser = require("body-parser");
 const res = require("express/lib/response");
 const cors = require('cors');
+const dash = require("./cal.json");
 
 
 const app = express()
@@ -68,5 +69,14 @@ app.get("/params", (req, res) => {
         res.sendStatus(500)
     } else {
         res.send(params)
+    }
+})
+
+app.get("/dashboard", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(dash)
     }
 })
