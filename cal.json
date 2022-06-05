@@ -34,6 +34,9 @@
                 },
                 {
                     "theader": "6 June"
+                },
+                {
+                    "theader": "Status"
                 }
             ],
             "tableBody": [
@@ -64,6 +67,9 @@
                     },
                     {
                         "tbody": " "
+                    },
+                    {
+                        "tbody": ""
                     }
                 ],
                 [
