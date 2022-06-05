@@ -272,7 +272,9 @@
                         "tbody": " "
                     }
                 ]
-            ]
+            ],
+            "checkImg": "/images/dot.png",
+            "checkImgAlt": "status"
         }
 
     }
