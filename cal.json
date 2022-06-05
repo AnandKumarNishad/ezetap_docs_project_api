@@ -275,7 +275,51 @@
             ],
             "checkImg": "/images/dot.png",
             "checkImgAlt": "status"
+        },
+        "footer": {
+            "links": [
+                {
+                    "li": "View History"
+                },
+                {
+                    "li": "Documentaion"
+                },
+                {
+                    "li": "JSON History"
+                },
+                {
+                    "li": "Schema"
+                },
+                {
+                    "li": "Send feedback"
+                },
+                {
+                    "li": "Privacy Policy"
+                }
+            ],
+            "status": [
+                {
+                    "liImg": "/images/dot.png",
+                    "liImgAlt": "check",
+                    "liSpan": "Available"
+                },
+                {
+                    "liImg": "/images/minus.svg",
+                    "liImgAlt": "minus",
+                    "liSpan": "Service information"
+                },
+                {
+                    "liImg": "/images/exclaim.svg",
+                    "liImgAlt": "exclaim",
+                    "liSpan": "Service disruption"
+                },
+                {
+                    "liImg": "/images/cross.svg",
+                    "liImgAlt": "cross",
+                    "liSpan": "Service Outage"
+                }
+            ],
+            "copyrightText": "&copy; 2022 Ezetap - Last Updated: 5 June 2022, 12:30 pm UTC"
         }
-
     }
 }
