@@ -9,28 +9,31 @@
         "tableGrid": {
             "tableHead": [
                 {
+                    "theader": "Name"
+                },
+                {
                     "theader": "30 May"
                 },
                 {
-                    "theader": "31"
+                    "theader": "31 May"
                 },
                 {
                     "theader": "1 June"
                 },
                 {
-                    "theader": "2"
+                    "theader": "2 June"
                 },
                 {
-                    "theader": "3"
+                    "theader": "3 June"
                 },
                 {
-                    "theader": "4"
+                    "theader": "4 June"
                 },
                 {
-                    "theader": "5"
+                    "theader": "5 June"
                 },
                 {
-                    "theader": "6"
+                    "theader": "6 June"
                 }
             ],
             "tableBody": [
