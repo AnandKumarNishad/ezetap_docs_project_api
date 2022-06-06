@@ -42,7 +42,8 @@
                 "type": "API",
                 "icon": "/images/apiIcon.svg",
                 "iconAlt": "API Icon",
-                "text": "API Details"
+                "text": "API Details",
+                "route": "/apiDetails"
             }
         ],
         "headerArea": [
