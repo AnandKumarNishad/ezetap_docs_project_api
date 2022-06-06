@@ -173,18 +173,7 @@
                         "li": "Request HTTP Headers: Content-Type: application/json"
                     }
                 ],
-                "tableTitle": "Start API Request Parameters",
-                "tableHeader": [
-                    {
-                        "td": "Parameter"
-                    },
-                    {
-                        "td": "Datatype"
-                    },
-                    {
-                        "td": "Description"
-                    }
-                ]
+                "tableTitle": "Start API Request Parameters"
             }
         }
     }
