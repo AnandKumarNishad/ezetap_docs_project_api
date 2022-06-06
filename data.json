@@ -33,10 +33,10 @@
                 "route": "/getStarted"
             },
             {
-                "type": "SDK_In",
+                "type": "Features",
                 "icon": "/images/integration.svg",
-                "iconAlt": "SDK Integration Icon",
-                "text": "SDK Integration"
+                "iconAlt": "Features Icon",
+                "text": "Features"
             },
             {
                 "type": "API",
