@@ -34,7 +34,7 @@
             },
             {
                 "type": "Features",
-                "icon": "/images/integration.svg",
+                "icon": "/images/features.svg",
                 "iconAlt": "Features Icon",
                 "text": "Features"
             },
