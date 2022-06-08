@@ -5,7 +5,9 @@ const bodyParser = require("body-parser");
 const res = require("express/lib/response");
 const cors = require('cors');
 const dash = require("./cal.json");
-const mdFile = require("./Api.md");
+// const mdFile = require("./Api.md");
+
+import mdFile from ("./Api.md")
 
 
 const app = express()
