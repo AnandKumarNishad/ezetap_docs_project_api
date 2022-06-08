@@ -120,12 +120,10 @@
                     "mainTab": "Get Started"
                 },
                 "FEATURES": {
-                    "mainTab": "API's",
+                    "mainTab": "SDK Integration",
                     "arrowImg": "/images/doublearrow.svg",
                     "SecTab":{
-                        "first": "Start API",
-                        "second": "Status API",
-                        "third": "Cancel API"
+                        "first": "Push To Pay"
                     }
                 },
                 "API": {
