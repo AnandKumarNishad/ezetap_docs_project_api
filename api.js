@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const res = require("express/lib/response");
 const cors = require('cors');
 const dash = require("./cal.json");
+const mdFile = require("./Api.md");
 
 
 const app = express()
@@ -50,10 +51,6 @@ app.listen(PORT,() => {
     console.log(`Listening on port ${PORT}`)
 })
 
-// app.get("/" , (req, res) => {
-//     res.send("Go to /data")
-// })
-
 app.get("/", (req, res) => {
     if(jsondata === ""){
         console.log("Data Not Found")
@@ -78,5 +75,14 @@ app.get("/dashboard", (req, res) => {
         res.sendStatus(500)
     } else {
         res.send(dash)
+    }
+})
+
+app.get("/md", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(mdFile)
     }
 })

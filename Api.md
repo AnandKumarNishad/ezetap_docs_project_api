@@ -1,9 +1,4 @@
-## SDK Integration
-Easy-to-include libraries and modular code packages. No-fuss integration to get your payments up in no time at all.
-
-#### Push To Pay
-
-###### API Details
+## API Details
 We have a set of APIs available to enable integration with billing system. Below are the details of these APIs.
 
 1. Start API
@@ -20,7 +15,7 @@ Before these APIs are invoked, please ensure the following:
 
 For testing these APIs in demo environment, please refer to the section - Setting up the device for Integration in Demo Environment
 
-###### Start API
+#### 1. Start API
 
 This API must be invoked by the billing application to send payment notification to the device.
 
