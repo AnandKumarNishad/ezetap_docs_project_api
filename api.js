@@ -5,14 +5,18 @@ const bodyParser = require("body-parser");
 const res = require("express/lib/response");
 const cors = require('cors');
 const dash = require("./cal.json");
-// const mdFile = require("./Api.md");
-
-import mdFile from ("./Api.md")
-
+let mdFile;
 
 const app = express()
 app.use(bodyParser.json())
-
+ 
+function mdFileRead() {
+    fs.readFile("./Api.md", function(err, data){
+        mdFile = data; 
+    })
+    return mdFile;
+}
+ 
 app.use(cors({
     origin:[
         "https://ezetap-docs-project-api.herokuapp.com",
@@ -85,6 +89,6 @@ app.get("/md", (req, res) => {
         console.log("Data Not Found")
         res.sendStatus(500)
     } else {
-        res.send(mdFile)
+        res.send(mdFileRead())
     }
 })
