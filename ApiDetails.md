@@ -24,3 +24,5 @@ This API must be invoked by the billing application to send payment notification
 - Production: https://www.ezetap.com/api/3.0/p2p/start
 - HTTP Method: POST
 - Request HTTP Headers: Content-Type: application/json
+
+![Sample request response of Start API](/images/startAPI_req_res.png "Sample request response for start API")
