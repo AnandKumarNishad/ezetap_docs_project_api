@@ -29,22 +29,20 @@ This API must be invoked by the billing application to send payment notification
 
 | Sample Request | Sample Response |
 | :---: | :---: |
-| [{ "appKey":"3cecb4d3-6719-47fe-8259-70b6a7ae6d0,
-    "username": "8087750622",
-    "customerMobileNumber": "8087750863",
-    "amount": "10300",
-    "externalRefNumber": "INVOICE_299",
-    "externalRefNumber2": "500007080",
-    "externalRefNumber3": "7000",
-    "externalRefNumber4": "500008080",
-    "externalRefNumber5": "3000",
-    "externalRefNumber6": "500007070",
-    "externalRefNumber7": "",
-    "externalRefNumbers":
-    [ "{\"Account 4\":\"200\"}",
-    "{\"Account 5\":\"100\"}", ],
-    "pushTo": { "deviceId": "0821006725|    ezetap_android"}
-    }] | {
+| { "appKey":"3cecb4d3-6719-47fe-8259-70b6a7ae6d0,"username": "8087750622",
+"customerMobileNumber": "8087750863",
+"amount": "10300",
+"externalRefNumber": "INVOICE_299",
+"externalRefNumber2": "500007080",
+"externalRefNumber3": "7000",
+"externalRefNumber4": "500008080","externalRefNumber5": "3000",
+"externalRefNumber6": "500007070",
+"externalRefNumber7": "",
+"externalRefNumbers": 
+[ "{\"Account 4\":\"200\"}",
+  "{\"Account 5\":\"100\"}", ],
+"pushTo": { "deviceId": "0821006725|ezetap_android"}
+} | {
     "success": true,
     "messageCode": null,
     "message": null,
