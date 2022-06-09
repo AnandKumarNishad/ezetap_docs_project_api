@@ -29,7 +29,7 @@ This API must be invoked by the billing application to send payment notification
 
 | Sample Request | Sample Response |
 | :---: | :---: |
-| { "appKey":"3cecb4d3-6719-47fe-8259-70b6a7ae6d0,
+| [{ "appKey":"3cecb4d3-6719-47fe-8259-70b6a7ae6d0,
     "username": "8087750622",
     "customerMobileNumber": "8087750863",
     "amount": "10300",
@@ -44,7 +44,7 @@ This API must be invoked by the billing application to send payment notification
     [ "{\"Account 4\":\"200\"}",
     "{\"Account 5\":\"100\"}", ],
     "pushTo": { "deviceId": "0821006725|    ezetap_android"}
-    } | {
+    }] | {
     "success": true,
     "messageCode": null,
     "message": null,
