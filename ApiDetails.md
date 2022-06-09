@@ -1,4 +1,4 @@
-## API Details
+# API Details
 We have a set of APIs available to enable integration with billing system. Below are the details of these APIs.
 
 1. Start API
@@ -15,7 +15,7 @@ Before these APIs are invoked, please ensure the following:
 
 For testing these APIs in demo environment, please refer to the section - Setting up the device for Integration in Demo Environment
 
-#### 1. Start API
+## 1. Start API
 
 This API must be invoked by the billing application to send payment notification to the device.
 
@@ -25,4 +25,20 @@ This API must be invoked by the billing application to send payment notification
 - HTTP Method: POST
 - Request HTTP Headers: Content-Type: application/json
 
+#### Sample Request & Response
+
 ![Sample request response of Start API](/images/startAPI_req_res.png "Sample request response for start API")
+
+## 2. Status API
+
+Once the notification is received on the device,this API must be invoked to retrieve the status of payment.
+
+***Demo and Production P2P 3.0 Status API URL:***
+- Demo URL: https://demo.ezetap.com/api/3.0/p2p/status
+- Production URL: https://www.ezetap.com/api/3.0/p2p/status
+- HTTP Method: POST
+- Request HTTP Headers: Content-Type: application/json
+
+#### Sample Request & Response
+
+![Sample request response of Status API](/images/statusAPI_req_res.png "Sample request response for status API")
