@@ -28,7 +28,7 @@ This API must be invoked by the billing application to send payment notification
 #### Sample Request & Response
 
 |col1|col2|
-|----|----|
+|:----:|:----:|
 |cell1|cell2|
 |cell1|cell2|
 |cell1|cell2|
