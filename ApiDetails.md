@@ -27,6 +27,12 @@ This API must be invoked by the billing application to send payment notification
 
 #### Sample Request & Response
 
+|col1|col2|
+|----|----|
+|cell1|cell2|
+|cell1|cell2|
+|cell1|cell2|
+
 ![Sample request response of Start API](/images/startAPI_req_res.png "Sample request response for start API")
 
 ## 2. Status API
