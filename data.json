@@ -135,54 +135,6 @@
                 }
             }
         ],
-        "APIDetails": {
-            "title": "API Details",
-            "titleText": "We have a set of APIs available to enable integration with billing system. Below are the details of these APIs.",
-            "APITypes": [
-                {
-                    "li": "Start API"
-                },
-                {
-                    "li": "Status API"
-                },
-                {
-                    "li": "Cancel API"
-                }
-            ],
-            "note":"Note: All request/responses are of type application/json",
-            "preprep": "Before these APIs are invoked, please ensure the following:",
-            "preprepSteps": [
-                {
-                    "li": "Device is connected to Internet"
-                },
-                {
-                    "li": "Ezetap Application is installed on the device"
-                },
-                {
-                    "li": "User is logged in to the Ezetap application with credentials shared by Ezetap"
-                }
-            ],
-            "testText": "For testing these APIs in demo environment, please refer to the section - Setting up the device for Integration in Demo Environment.",
-            "type1": {
-                "heading": "1. Start API",
-                "type1Text": "This API must be invoked by the billing application to send payment notification to the device.",
-                "innerTitle": "Demo and Production P2P 3.0 Start API URL:",
-                "innerURLs": [
-                    {
-                        "li": "Demo URL: https://demo.ezetap.com/api/3.0/p2p/start"
-                    },
-                    {
-                        "li": "Production: https://www.ezetap.com/api/3.0/p2p/start"
-                    },
-                    {
-                        "li": "HTTP Method: POST"
-                    },
-                    {
-                        "li": "Request HTTP Headers: Content-Type: application/json"
-                    }
-                ],
-                "tableTitle": "Start API Request Parameters"
-            }
-        }
+        "tableTitle": "Start API Request Parameters"
     }
 }

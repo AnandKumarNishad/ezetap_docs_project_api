@@ -6,9 +6,11 @@ const res = require("express/lib/response");
 const cors = require('cors');
 const dash = require("./cal.json");
 const fs = require('fs');
-let mdFile;
-
 const app = express()
+
+let mdFile;
+let features;
+
 app.use(bodyParser.json())
  
 function mdFileRead() {
@@ -16,6 +18,13 @@ function mdFileRead() {
         mdFile = data; 
     })
     return mdFile;
+}
+
+function featuresmdFileRead() {
+    fs.readFile("./ApiDetails.md", function(err, data){
+        features = data; 
+    })
+    return features;
 }
  
 app.use(cors({
@@ -91,5 +100,14 @@ app.get("/md", (req, res) => {
         res.sendStatus(500)
     } else {
         res.send(mdFileRead())
+    }
+})
+
+app.get("/featuresmd", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(featuresmdFileRead())
     }
 })
