@@ -27,13 +27,39 @@ This API must be invoked by the billing application to send payment notification
 
 #### Sample Request & Response
 
-| col 1 | col 2 |
+| Sample Request | Sample Response |
 | :---: | :---: |
-| cell1 | cell2 |
-| cell1 | cell2 |
-| cell1 | cell2 |
-
-![Sample request response of Start API](/images/startAPI_req_res.png "Sample request response for start API")
+| {
+"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01",
+"username": "8087750622",
+"customerMobileNumber": "8087750863",
+"amount": "10300",
+"externalRefNumber": "INVOICE_299",
+"externalRefNumber2": "500007080",
+"externalRefNumber3": "7000",
+"externalRefNumber4": "500008080",
+"externalRefNumber5": "3000",
+"externalRefNumber6": "500007070",
+"externalRefNumber7": "",
+"externalRefNumbers":
+[ "{\"Account 4\":\"200\"}",
+"{\"Account 5\":\"100\"}", ],
+"pushTo": { "deviceId": "0821006725|ezetap_android"}
+} | {
+"success": true,
+"messageCode": null,
+"message": null,
+"errorCode": null,
+"errorMessage": null,
+"realCode": null,
+"apiMessageTitle": null,
+"apiMessage": null,
+"apiMessageText": null,
+"apiWarning": null,
+"p2pRequestId":
+"200205214646781E020059712"
+} |
+<!-- ![Sample request response of Start API](/images/startAPI_req_res.png "Sample request response for start API") -->
 
 ## 2. Status API
 
