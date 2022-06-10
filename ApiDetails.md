@@ -29,8 +29,7 @@ This API must be invoked by the billing application to send payment notification
 
 | Sample Request | Sample Response |
 |:-----|:-----|
-|{<br>"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01",<br>    "username": "8087750622",<br>"customerMobileNumber": "8087750863",<br>"amount": "10300",<br>"externalRefNumber": "INVOICE_299",<br>"externalRefNumber2": "500007080",<br>"externalRefNumber3": "7000",<br>"externalRefNumber4": "500008080",<br>"externalRefNumber5": "3000",<br>"externalRefNumber6": "500007070",<br>"externalRefNumber7": "",<br>"externalRefNumbers":<br>&emsp;[ "{\"Account 4\":\"200\"}",<br>&ensp; "{\"Account 5\":\"100\"}", ],<br>"pushTo": { "deviceId": "0821006725, ezetap_android"}<br>}|{ <br>"success": true,<br>"messageCode": null,<br>"message": null,<br>"errorCode": null,<br>"errorMessage": null,<br>"realCode": null,<br>"apiMessageTitle": null,<br>"apiMessage": null,<br>"apiMessageText": null,<br>"apiWarning": null,<br>"p2pRequestId":<br>"200205214646781E020059712"<br>}|
-<!-- ![Sample request response of Start API](/images/startAPI_req_res.png "Sample request response for start API") -->
+|{<br>"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01",<br>    "username": "8087750622",<br>"customerMobileNumber": "8087750863",<br>"amount": "10300",<br>"externalRefNumber": "INVOICE_299",<br>"externalRefNumber2": "500007080",<br>"externalRefNumber3": "7000",<br>"externalRefNumber4": "500008080",<br>"externalRefNumber5": "3000",<br>"externalRefNumber6": "500007070",<br>"externalRefNumber7": "",<br>"externalRefNumbers":<br>&emsp;[ "{\"Account 4\":\"200\"}",<br>&ensp;&emsp;"{\"Account 5\":\"100\"}", ],<br>"pushTo": { "deviceId": "0821006725, ezetap_android"}<br>}|{ <br>"success": true,<br>"messageCode": null,<br>"message": null,<br>"errorCode": null,<br>"errorMessage": null,<br>"realCode": null,<br>"apiMessageTitle": null,<br>"apiMessage": null,<br>"apiMessageText": null,<br>"apiWarning": null,<br>"p2pRequestId":<br>"200205214646781E020059712"<br>}|
 
 ## 2. Status API
 
@@ -44,7 +43,11 @@ Once the notification is received on the device,this API must be invoked to retr
 
 #### Sample Request & Response
 
-![Sample request response of Status API](/images/statusAPI_req_res.png "Sample request response for status API")
+| Sample Request | Sample Response |
+|:-----|:-----|
+|{<br>"appkey":"<account appkey>",<br>"username":"<admin/agent username>",<br>" origP2pRequestId ":"<Use the one returned by the start API>" <br>}|{"success": true,"messageCode": "P2P_DEVICE_TXN_DONE","message":"Transaction done on device, Please look at Txn status.","realCode": "P2P_DEVICE_TXN_DONE","setting": {},"apps": [],"amount": 111,"amountOriginal": 111,"currencyCode": "INR","customerMobile": "","customerReceiptUrl": "http://d.eze.cc/r/o/pX9RhCGa","externalRefNumber": "a1b1","txnId": "170420065424513E020067042","merchantName": "BhaskaranNew","nonceStatus": "OPEN","orgCode": "BHASKARANNEW_59","merchantCode": "BHASKARANNEW_59","paymentCardType": "UNKNOWN","paymentMode": "CASH","postingDate": 1492671265000,"processCode": "_DEF_PROC","settlementStatus": "SETTLED","signatureId": "NR","status": "AUTHORIZED","states": ["SETTLED"],"userMobile": "4563219870","txnType": "CHARGE","userAgreement": "","signable": false,"voidable": false,"refundable": true,"chargeSlipDate": "2017-04-20T12:24:25+0530","readableChargeSlipDate": "20/04/2017 12:24:25","settlementTime": 1492671265000,"receiptUrl": "http://d.eze.cc/r/o/pX9RhCGa","signReqd": false,"txnTypeDesc": "Charge","acquirerCode": "NONE","orderNumber": "a1b1","totalAmount": 111,"tipEnabled": false,"callTC": false,"acquisitionId": "","acquisitionKey": "","externalDevice": false,"txnMetadata": []}
+
+<!-- ![Sample request response of Status API](/images/statusAPI_req_res.png "Sample request response for status API") -->
 
 ## 3. Cancel API
 
