@@ -28,18 +28,8 @@ This API must be invoked by the billing application to send payment notification
 #### Sample Request & Response
 
 | Sample Request | Sample Response |
-|-----|-----|
-|{<br>"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01",<br>"username": "8087750622",<br>"customerMobileNumber": "8087750863",<br>"amount": "10300",<br>"externalRefNumber": "INVOICE_299",<br>"externalRefNumber2": "500007080",<br>"externalRefNumber3": "7000",<br>"externalRefNumber4": "500008080",<br>"externalRefNumber5": "3000",<br>"externalRefNumber6": "500007070",<br>"externalRefNumber7": "",<br>"externalRefNumbers":<br>[ "{\"Account 4\":\"200\"}",<br>" {\"Account 5\":\"100\"}", ],<br>"pushTo": { "deviceId": "0821006725, ezetap_android"}<br>}|``` {
-  "id": 9,
-  "title": "Infinix INBOOK",
-  "description": "Infinix Inbook X1 Ci3 10th 8GB...",
-  "price": 1099,
-  "discountPercentage": 11.83,
-  "rating": 4.54
-} ```|
-
-
-<!-- { <br>"success": true,<br>"messageCode": null,<br>"message": null,<br>"errorCode": null,<br>"errorMessage": null,<br>"realCode": null,<br>"apiMessageTitle": null,<br>"apiMessage": null,<br>"apiMessageText": null,<br>"apiWarning": null,<br>"p2pRequestId":<br>"200205214646781E020059712"<br>}| -->
+|:-----|:-----|
+|{<br>    "appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01",<br>    "username": "8087750622",<br>"customerMobileNumber": "8087750863",<br>"amount": "10300",<br>"externalRefNumber": "INVOICE_299",<br>"externalRefNumber2": "500007080",<br>"externalRefNumber3": "7000",<br>"externalRefNumber4": "500008080",<br>"externalRefNumber5": "3000",<br>"externalRefNumber6": "500007070",<br>"externalRefNumber7": "",<br>"externalRefNumbers":<br>[ "{\"Account 4\":\"200\"}",<br>" {\"Account 5\":\"100\"}", ],<br>"pushTo": { "deviceId": "0821006725, ezetap_android"}<br>}|{ <br>"success": true,<br>"messageCode": null,<br>"message": null,<br>"errorCode": null,<br>"errorMessage": null,<br>"realCode": null,<br>"apiMessageTitle": null,<br>"apiMessage": null,<br>"apiMessageText": null,<br>"apiWarning": null,<br>"p2pRequestId":<br>"200205214646781E020059712"<br>}|
 <!-- ![Sample request response of Start API](/images/startAPI_req_res.png "Sample request response for start API") -->
 
 ## 2. Status API
