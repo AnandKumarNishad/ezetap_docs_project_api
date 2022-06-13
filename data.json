@@ -131,7 +131,18 @@
                     "arrowImg": "/images/doublearrow.svg",
                     "SecTab":{
                         "first": "Push To Pay"
-                    }
+                    },
+                    "secTabList":[
+                        {
+                            "li": "Start API"
+                        },
+                        {
+                            "li": "Status API"
+                        },
+                        {
+                            "li": "Cancel API"
+                        }
+                    ]
                 }
             }
         ],
