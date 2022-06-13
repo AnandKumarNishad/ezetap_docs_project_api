@@ -124,13 +124,6 @@
                     "arrowImg": "/images/doublearrow.svg",
                     "SecTab":{
                         "first": "Push To Pay"
-                    }
-                },
-                "API": {
-                    "mainTab": "SDK Integration",
-                    "arrowImg": "/images/doublearrow.svg",
-                    "SecTab":{
-                        "first": "Push To Pay"
                     },
                     "secTabList":[
                         {
@@ -143,6 +136,13 @@
                             "li": "Cancel API"
                         }
                     ]
+                },
+                "API": {
+                    "mainTab": "SDK Integration",
+                    "arrowImg": "/images/doublearrow.svg",
+                    "SecTab":{
+                        "first": "Push To Pay"
+                    }
                 }
             }
         ],
