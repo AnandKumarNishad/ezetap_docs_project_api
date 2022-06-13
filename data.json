@@ -36,7 +36,8 @@
                 "type": "Features",
                 "icon": "/images/features.svg",
                 "iconAlt": "Features Icon",
-                "text": "Features"
+                "text": "Features",
+                "route": "/features"
             },
             {
                 "type": "API",
