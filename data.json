@@ -3,14 +3,14 @@
         "topNavbar": [
             {
                 "logoURL": "/images/ezetap_logo.gif",
-                "logoURLAlt": "Logo"
+                "logoURLAlt": "logo"
             },
             {
                 "searchBarPLaceholder": "Search the documentation",
                 "searchIcon": "/images/search-icon.svg",
-                "searchIconAlt": "Search Icon",
+                "searchIconAlt": "search icon",
                 "infoIcon": "/images/info-icon.svg",
-                "infoIconAlt": "Info Icon"            
+                "infoIconAlt": "info icon"            
             },
             {
                 "firstBtnText": "Log In",
@@ -19,30 +19,30 @@
         ],
         "sideNavbar": [
             {
-                "type": "Home",
+                "type": "home",
                 "icon": "/images/home.svg",
-                "iconAlt": "Home Icon",
+                "iconAlt": "home icon",
                 "text": "Home",
                 "route": "/"
             },
             {
-                "type": "GetStarted",
+                "type": "getStarted",
                 "icon": "/images/getStarted.svg",
-                "iconAlt": "GetStarted Icon",
+                "iconAlt": "get started icon",
                 "text": "Get Started",
                 "route": "/getStarted"
             },
             {
-                "type": "Features",
+                "type": "features",
                 "icon": "/images/features.svg",
-                "iconAlt": "Features Icon",
+                "iconAlt": "features icon",
                 "text": "Features",
                 "route": "/features"
             },
             {
-                "type": "API",
+                "type": "api",
                 "icon": "/images/apiIcon.svg",
-                "iconAlt": "API Icon",
+                "iconAlt": "api icon",
                 "text": "API Details",
                 "route": "/apiDetails"
             }
