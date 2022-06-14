@@ -11,7 +11,7 @@ own system
 
 #### 1. What is Push to Pay Solution?
 
-![Push To Pay flow](/images/flow.png "Push To Pay flow")
+![Push To Pay flow](/images/flow.png "Push To Pay")
 
 Ezetap’ s Push to pay solution allows seamless integration with Customer’s existing web-based application.
 
