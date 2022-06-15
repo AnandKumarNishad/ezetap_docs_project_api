@@ -142,7 +142,7 @@ app.get("/startapi", (req, res) => {
     }
 })
 
-app.get("/status", (req, res) => {
+app.get("/statusapi", (req, res) => {
     if(params === ""){
         console.log("Data Not Found")
         res.sendStatus(500)
