@@ -124,7 +124,8 @@
                     "mainTab": "SDK Integration",
                     "arrowImg": "/images/doublearrow.svg",
                     "SecTab":{
-                        "first": "Push To Pay"
+                        "first": "Push To Pay",
+                        "route": "/features"
                     },
                     "secTabList":[
                         {
