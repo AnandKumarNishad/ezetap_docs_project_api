@@ -1,11 +1,10 @@
 # PUSH TO PAY
 
 ## Pre-requisites to use Push To Pay Solution
-- Merchant system must have Internet Connectivity (Wi-Fi or Mobile Hotspot)
-- Merchant system able to call/ access any external API like Ezetap P2P API from their
+* Merchant system must have Internet Connectivity (Wi-Fi or Mobile Hotspot)
+* Merchant system able to call/ access any external API like Ezetap P2P API from their
 own system
-- Using minimum TLS 1.2 protocol (Transport Layer Security).
-<!-- - For more details refer to attached pdf (PCI_SSC Migrating) link. -->
+* Using minimum TLS 1.2 protocol (Transport Layer Security).
 
 ## Push to Pay Solution for Android POS device
 
