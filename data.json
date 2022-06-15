@@ -146,6 +146,7 @@
                 "API": {
                     "mainTab": "SDK Integration",
                     "arrowImg": "/images/doublearrow.svg",
+                    "arrImgAlt": "double arrow",
                     "SecTab":{
                         "first": "Push To Pay"
                     }
