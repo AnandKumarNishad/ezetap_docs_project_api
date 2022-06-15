@@ -18,4 +18,6 @@ Cancellation will happen even when the device has received notification. In such
 
 #### Sample Request & Response
 
-![Sample request response of Status API](/images/cancelAPI_req_res.png "Sample request response for status API")
+|Sample Request|Sample Response|
+|-----|-----|
+|{<br>"username": "7388589588",<br>"appKey": "1275c97d-ba9d-409a-9c4a-d5c7a30ae937",<br>"origP2pRequestId": "220207101337222E020061977",<br>"pushTo": {<br>&ensp;&emsp;"deviceId": "1490772770, ezetap_android"<br>}<br>}|{<br>"success": true,<br>"messageCode": null,<br>"message": null,<br>"errorCode": null,<br>"errorMessage": null,<br>"realCode": null,<br>"apiMessageTitle": null,<br>"apiMessage": null,<br>"apiMessageText": null,<br>"apiWarning": null,<br>"p2pRequestId":"1901131948341E010055004"<br>}|
