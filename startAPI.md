@@ -1,4 +1,4 @@
-## 1. Start API
+## Start API
 
 This API must be invoked by the billing application to send payment notification to the device.
 

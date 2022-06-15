@@ -26,6 +26,27 @@ function featuresmdFileRead() {
     })
     return features;
 }
+
+function startmdRead() {
+    fs.readFile("./startAPI.md", function(err, data){
+        startapi = data; 
+    })
+    return startapi;
+}
+
+function statusmdRead() {
+    fs.readFile("./statusAPI.md", function(err, data){
+        statusapi = data; 
+    })
+    return statusapi;
+}
+
+function cancelmdRead() {
+    fs.readFile("./cancelAPI.md", function(err, data){
+        cancelapi = data; 
+    })
+    return cancelapi;
+}
  
 app.use(cors({
     origin:[
@@ -109,5 +130,32 @@ app.get("/featuresmd", (req, res) => {
         res.sendStatus(500)
     } else {
         res.send(featuresmdFileRead())
+    }
+})
+
+app.get("/startapi", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(startmdRead())
+    }
+})
+
+app.get("/status", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(statusmdRead())
+    }
+})
+
+app.get("/cancelapi", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(cancelmdRead())
     }
 })
