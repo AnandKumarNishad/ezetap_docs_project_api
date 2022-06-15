@@ -131,14 +131,17 @@
                     "secTabList":[
                         {
                             "li": "Start API",
+                            "id": "start",
                             "route": "/features/startApi"
                         },
                         {
                             "li": "Status API",
+                            "id": "status",
                             "route": "/features/statusApi"
                         },
                         {
                             "li": "Cancel API",
+                            "id": "cancel",
                             "route": "/features/cancelApi"
                         }
                     ]
