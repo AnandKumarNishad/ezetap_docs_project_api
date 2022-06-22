@@ -43,6 +43,7 @@
             {
                 "index": "1",
                 "language": "Curl",
+                "html": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br></br> -X GET https://api.ezetap.com/v1/startapi <br></br> -H <span> 'content-type: application/json'</span> -d <br></br><span>{'{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1','}<br></br>{ ''notes':{ 'key1': 'value3', 'key2': 'value2'}}'}</span>",
                 "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
                 "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
             },
