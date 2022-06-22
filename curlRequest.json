@@ -1,0 +1,99 @@
+{
+    "curldata": {
+        "buttons": [
+            {
+                "index": "1",
+                "text": "Curl"
+            },
+            {
+                "index": "2",
+                "text": "Java"
+            },
+            {
+                "index": "3",
+                "text": "Python"
+            },
+            {
+                "index": "4",
+                "text": "PHP"
+            },
+            {
+                "index": "5",
+                "text": ".NET"
+            },
+            {
+                "index": "6",
+                "text": "Ruby"
+            },
+            {
+                "index": "7",
+                "text": "Node.js"
+            },
+            {
+                "index": "8",
+                "text": "Go"
+            },
+            {
+                "index": "9",
+                "text": "Response"
+            }
+        ],
+        "buttonText": "Copy",
+        "code": [
+            {
+                "index": "1",
+                "language": "Curl",
+                "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
+                "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
+            },
+            {
+                "index": "2",
+                "language": "Java",
+                "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
+                "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
+            },
+            {
+                "index": "3",
+                "language": "Python",
+                "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
+                "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
+            },
+            {
+                "index": "4",
+                "language": "PHP",
+                "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
+                "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
+            },
+            {
+                "index": "5",
+                "language": ".NET",
+                "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
+                "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
+            },
+            {
+                "index": "6",
+                "language": "Ruby",
+                "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
+                "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
+            },
+            {
+                "index": "7",
+                "language": "Node.js",
+                "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
+                "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
+            },
+            {
+                "index": "8",
+                "language": "GO",
+                "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
+                "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
+            },
+            {
+                "index": "9",
+                "language": "Response",
+                "text": "-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] -X GET https://api.ezetap.com/v1/startapi -H 'content-type: application/json' -d",
+                "textSpan": "{'amount': 50000,'currency': 'INR', 'receipt': 'receipt#1', 'notes':{ 'key1': 'value3', 'key2': 'value2'}}"
+            }
+        ]
+    }
+}

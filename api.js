@@ -6,7 +6,8 @@ const res = require("express/lib/response");
 const cors = require('cors');
 const dash = require("./cal.json");
 const fs = require('fs');
-const app = express()
+const app = express();
+const curldata = require("./curlRequest.json");
 
 let mdFile;
 let features;
@@ -157,5 +158,14 @@ app.get("/cancelapi", (req, res) => {
         res.sendStatus(500)
     } else {
         res.send(cancelmdRead())
+    }
+})
+
+app.get("/curlreqdata", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(curldata)
     }
 })
