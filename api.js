@@ -7,7 +7,9 @@ const cors = require('cors');
 const dash = require("./cal.json");
 const fs = require('fs');
 const app = express();
-const curldata = require("./curlRequest.json");
+const startcurldata = require("./startCurlRequest.json");
+const statuscurldata = require("./statusCurlRequest.json");
+const cancelcurldata = require("./cancelCurlRequest.json");
 
 let mdFile;
 let features;
@@ -161,11 +163,29 @@ app.get("/cancelapi", (req, res) => {
     }
 })
 
-app.get("/curlreqdata", (req, res) => {
+app.get("/startcurl", (req, res) => {
     if(params === ""){
         console.log("Data Not Found")
         res.sendStatus(500)
     } else {
-        res.send(curldata)
+        res.send(startcurldata)
+    }
+})
+
+app.get("/statuscurl", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(statuscurldata)
+    }
+})
+
+app.get("/cancelcurl", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(cancelcurldata)
     }
 })
