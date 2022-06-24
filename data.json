@@ -118,11 +118,18 @@
         "splitNav": [
             {
                 "GS": {
-                    "mainTab": "Get Started",
-                    "mainTab": "Get"
+                    "mainTab": [
+                        {
+                            "title": "Get Started"
+                        }
+                    ]
                 },
                 "FEATURES": {
-                    "mainTab": "SDK Integration",
+                    "mainTab": [
+                        {
+                            "title": "SDK Integration"
+                        }
+                    ],
                     "arrowImg": "/images/doublearrow.svg",
                     "arrImgAlt": "double arrow",
                     "SecTab":{
@@ -148,7 +155,11 @@
                     ]
                 },
                 "API": {
-                    "mainTab": "SDK Integration",
+                    "mainTab": [
+                        {
+                            "title": "SDK Integration"
+                        }
+                    ],
                     "arrowImg": "/images/doublearrow.svg",
                     "arrImgAlt": "double arrow",
                     "SecTab":{
