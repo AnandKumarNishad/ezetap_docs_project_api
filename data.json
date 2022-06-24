@@ -118,7 +118,8 @@
         "splitNav": [
             {
                 "GS": {
-                    "mainTab": "Get Started"
+                    "mainTab": "Get Started",
+                    "mainTab": "Get"
                 },
                 "FEATURES": {
                     "mainTab": "SDK Integration",
