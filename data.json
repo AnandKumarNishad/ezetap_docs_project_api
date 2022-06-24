@@ -121,6 +121,12 @@
                     "mainTab": [
                         {
                             "title": "Get Started"
+                        },
+                        {
+                            "title": "GS"
+                        },
+                        {
+                            "title": "Gezdvc"
                         }
                     ]
                 },
