@@ -74,6 +74,11 @@
                             "title1": "Push To Pay",
                             "title2": "Smart Charge Slips",
                             "title3": "Merchant Portal"
+                        },
+                        "linkTo": {
+                            "link1": "/apiDetails",
+                            "link2": "/",
+                            "link3": "/"
                         }
                     }
                 },
@@ -92,6 +97,11 @@
                             "title1": "Payment Integration",
                             "title2": "Payment Reconciliation",
                             "title3": "Multi-TID"
+                        },
+                        "linkTo": {
+                            "link1": "/",
+                            "link2": "/",
+                            "link3": "/"
                         }
                     }
                 },
@@ -110,6 +120,11 @@
                             "title1": "EMI",
                             "title2": "Loyalty",
                             "title3": "My Khaata"
+                        },
+                        "linkTo": {
+                            "link1": "/",
+                            "link2": "/",
+                            "link3": "/"
                         }
                     }
                 }
