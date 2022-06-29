@@ -44,7 +44,7 @@ Here is what you will need to start with the integration in demo environment:
 
 You can reach-out to Devsupport@ezetap.com or the respective Ezetap SPOC during the entire process of integration in case of support or troubleshooting.
 
-# API Details for Android POS
+## API Details for Android POS
 We have a set of APIs available to enable integration with billing system. Below are the details of these APIs.
 
 1. Start API
