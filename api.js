@@ -56,6 +56,10 @@ app.use(cors({
         "https://ezetap-docs-project-api.herokuapp.com",
         "http://localhost:3000",
         "http://localhost:3001",
+        "http://localhost:3002",
+        "http://localhost:3003",
+        "http://localhost:3004",
+        "http://localhost:3005",
     ]
 }))
 
@@ -64,6 +68,10 @@ app.use(function (req, res, next) {
         "https://ezetap-docs-project-api.herokuapp.com",
         "http://localhost:3000",
         "http://localhost:3001",
+        "http://localhost:3002",
+        "http://localhost:3003",
+        "http://localhost:3004",
+        "http://localhost:3005",
     ]
 
     if(corsWhiteList.indexOf(req.header.origin) !== -1){
