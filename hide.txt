@@ -1,0 +1,10 @@
+// sidebar menu ( Get Started )
+
+{
+    "type": "getStarted",
+    "icon": "/images/getStarted.svg",
+    "iconAlt": "get started icon",
+    "text": "Get Started",
+    "route": "/getStarted"
+},
+

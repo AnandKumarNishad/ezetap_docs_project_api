@@ -26,13 +26,6 @@
                 "route": "/"
             },
             {
-                "type": "getStarted",
-                "icon": "/images/getStarted.svg",
-                "iconAlt": "get started icon",
-                "text": "Get Started",
-                "route": "/getStarted"
-            },
-            {
                 "type": "features",
                 "icon": "/images/features.svg",
                 "iconAlt": "features icon",
@@ -150,24 +143,7 @@
                     "SecTab":{
                         "first": "Push To Pay",
                         "route": "/features"
-                    },
-                    "secTabList":[
-                        {
-                            "li": "Start API",
-                            "id": "start",
-                            "route": "/features/startApi"
-                        },
-                        {
-                            "li": "Status API",
-                            "id": "status",
-                            "route": "/features/statusApi"
-                        },
-                        {
-                            "li": "Cancel API",
-                            "id": "cancel",
-                            "route": "/features/cancelApi"
-                        }
-                    ]
+                    }
                 },
                 "API": {
                     "mainTab": [
@@ -178,8 +154,26 @@
                     "arrowImg": "/images/doublearrow.svg",
                     "arrImgAlt": "double arrow",
                     "SecTab":{
-                        "first": "Push To Pay"
-                    }
+                        "first": "Push To Pay",
+                        "route": "/apiDetails"
+                    },
+                    "secTabList":[
+                        {
+                            "li": "Start API",
+                            "id": "start",
+                            "route": "/apiDetails/startApi"
+                        },
+                        {
+                            "li": "Status API",
+                            "id": "status",
+                            "route": "/apiDetails/statusApi"
+                        },
+                        {
+                            "li": "Cancel API",
+                            "id": "cancel",
+                            "route": "/apiDetails/cancelApi"
+                        }
+                    ]
                 }
             }
         ],
