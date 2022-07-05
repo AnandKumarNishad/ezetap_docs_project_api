@@ -5,7 +5,7 @@ We have a set of APIs available to enable integration with billing system. Below
 2. Status API
 3. Cancel API
 
-**NOTE:** All request/responses are of type application/json
+<p>**NOTE:** All request/responses are of type application/json<p>
 
 Before these APIs are invoked, please ensure the following:
 
