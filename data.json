@@ -20,6 +20,7 @@
         "sideNavbar": [
             {
                 "type": "home",
+                "class": "navBtns active",
                 "icon": "/images/home.svg",
                 "iconAlt": "home icon",
                 "text": "Home",
@@ -27,6 +28,7 @@
             },
             {
                 "type": "features",
+                "class": "navBtns",
                 "icon": "/images/features.svg",
                 "iconAlt": "features icon",
                 "text": "Features",
@@ -34,6 +36,7 @@
             },
             {
                 "type": "api",
+                "class": "navBtns",
                 "icon": "/images/apiIcon.svg",
                 "iconAlt": "api icon",
                 "text": "API Details",
