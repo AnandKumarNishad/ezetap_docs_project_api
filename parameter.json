@@ -9,15 +9,15 @@
         { "parameter": "amountAdditional", "datatype": "BigDecimal", "description": "Additional Amount if required (Optional)" },
         { "parameter": "externalRefNumber", "datatype": "String", "description": "Reference number of the bill (Mandatory). This must be unique for every transaction." },
         { "parameter": "customerMobileNumber", "datatype": "String", "description": "Customer mobile number (Optional)" },
-        { "parameter": "customerEmail", "datatype": "String", "description": "Customer’s email id (Optional)" },
-        { "parameter": "customerName", "datatype": "String", "description": "Customer’s Name (Optional)" },
+        { "parameter": "customerEmail", "datatype": "String", "description": "Customer's email id (Optional)" },
+        { "parameter": "customerName", "datatype": "String", "description": "Customer's Name (Optional)" },
         { "parameter": "accountLabels", "datatype": "List of Strings", "description": "Labels is the list of tags. It is used for passing MID/TID labels in multi-TID case (Optional)" },
         { "parameter": "externalRefNumber2", "datatype": "String", "description": "Optional" },
         { "parameter": "externalRefNumber3", "datatype": "String", "description": "Optional" },
         { "parameter": "externalRefNumber4", "datatype": "String", "description": "Optional" },
         { "parameter": "externalRefNumbers", "datatype": "Set of Strings", "description": "Optional" },
         { "parameter": "additionalData", "datatype": "Json String", "description": "AdditionalData is json (Optional)" },
-        { "parameter": "orgCode", "datatype": "String", "description": "Merchant’s orgCode (Optional)" },
+        { "parameter": "orgCode", "datatype": "String", "description": "Merchant's orgCode (Optional)" },
         { "parameter": "paymentBy", "datatype": "String", "description": "For service fees configuration, this is DEBIT|CREDIT (Optional)" },
         { "parameter": "paymentMode", "datatype": "String", "description": "For service fees configuration, this is CARD (Optional)" }
     ]
