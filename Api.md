@@ -9,7 +9,7 @@ We have a set of APIs available to enable integration with billing system. Below
 
 **NOTE:** All request/responses are of type application/json
 
-<span>
+</span>
 
 Before these APIs are invoked, please ensure the following:
 
