@@ -123,51 +123,6 @@
                             "link3": "/"
                         }
                     }
-                },
-                {
-                    "cardFront": {
-                        "sdkImg": "/images/accelerate.svg",
-                        "sdkImgAlt": "SDK Icon",
-                        "title": "Accelerate Sales"                    
-                    },
-                    "cardBack": {
-                        "sdkImg": "/images/accelerate.svg",
-                        "sdkImgAlt": "SDK Icon",
-                        "title": "Accelerate Sales",
-                        "backtext": "Upsell easily using instant and hassle-free EMI options. Use My Khaata to digitally record credit sales.",
-                        "listlink": {
-                            "title1": "EMI",
-                            "title2": "Loyalty",
-                            "title3": "My Khaata"
-                        },
-                        "linkTo": {
-                            "link1": "/",
-                            "link2": "/",
-                            "link3": "/"
-                        }
-                    }
-                },{
-                    "cardFront": {
-                        "sdkImg": "/images/accelerate.svg",
-                        "sdkImgAlt": "SDK Icon",
-                        "title": "Accelerate Sales"                    
-                    },
-                    "cardBack": {
-                        "sdkImg": "/images/accelerate.svg",
-                        "sdkImgAlt": "SDK Icon",
-                        "title": "Accelerate Sales",
-                        "backtext": "Upsell easily using instant and hassle-free EMI options. Use My Khaata to digitally record credit sales.",
-                        "listlink": {
-                            "title1": "EMI",
-                            "title2": "Loyalty",
-                            "title3": "My Khaata"
-                        },
-                        "linkTo": {
-                            "link1": "/",
-                            "link2": "/",
-                            "link3": "/"
-                        }
-                    }
                 }
             ]
         },
