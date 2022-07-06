@@ -151,33 +151,33 @@
                 "API": {
                     "mainTab": [
                         {
-                            "title": "SDK Integration"
+                            "title": "SDK Integration",
+                            "arrowImg": "/images/doublearrow.svg",
+                            "arrImgAlt": "double arrow",
+                            "SecTab":{
+                                "first": "Push To Pay",
+                                "route": "/apiDetails"
+                            },
+                            "secTabList":[
+                                {
+                                    "li": "Start API",
+                                    "id": "start",
+                                    "route": "/apiDetails/startApi"
+                                },
+                                {
+                                    "li": "Status API",
+                                    "id": "status",
+                                    "route": "/apiDetails/statusApi"
+                                },
+                                {
+                                    "li": "Cancel API",
+                                    "id": "cancel",
+                                    "route": "/apiDetails/cancelApi"
+                                }
+                            ]
                         },
                         {
                             "title": "SDKnbv Integration"
-                        }
-                    ],
-                    "arrowImg": "/images/doublearrow.svg",
-                    "arrImgAlt": "double arrow",
-                    "SecTab":{
-                        "first": "Push To Pay",
-                        "route": "/apiDetails"
-                    },
-                    "secTabList":[
-                        {
-                            "li": "Start API",
-                            "id": "start",
-                            "route": "/apiDetails/startApi"
-                        },
-                        {
-                            "li": "Status API",
-                            "id": "status",
-                            "route": "/apiDetails/statusApi"
-                        },
-                        {
-                            "li": "Cancel API",
-                            "id": "cancel",
-                            "route": "/apiDetails/cancelApi"
                         }
                     ]
                 }
