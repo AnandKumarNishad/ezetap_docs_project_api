@@ -57,12 +57,12 @@
             "cards": [
                 {
                     "cardFront": {
-                        "sdkImg": "/images/sdk.svg",
+                        "sdkImg": "/images/sdkorange1.png",
                         "sdkImgAlt": "SDK Icon",
                         "title": "SDK Integration"                    
                     },
                     "cardBack": {
-                        "sdkImg": "/images/sdk2.svg",
+                        "sdkImg": "/images/sdkorange1.png",
                         "sdkImgAlt": "SDK Icon",
                         "title": "SDK Integration",
                         "backtext": "Easy-to-include libraries and modular code packages. No-fuss integration to get your payments up in no time at all.",
