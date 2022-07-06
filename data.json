@@ -103,12 +103,12 @@
                 },
                 {
                     "cardFront": {
-                        "sdkImg": "/images/sdk.svg",
+                        "sdkImg": "/images/sdkyellow1.png",
                         "sdkImgAlt": "SDK Icon",
                         "title": "Accelerate Sales"                    
                     },
                     "cardBack": {
-                        "sdkImg": "/images/sdk2.svg",
+                        "sdkImg": "/images/sdkyellow1.png",
                         "sdkImgAlt": "SDK Icon",
                         "title": "Accelerate Sales",
                         "backtext": "Upsell easily using instant and hassle-free EMI options. Use My Khaata to digitally record credit sales.",
