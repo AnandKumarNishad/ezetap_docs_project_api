@@ -57,12 +57,12 @@
             "cards": [
                 {
                     "cardFront": {
-                        "sdkImg": "/images/sdkorange1.png",
+                        "sdkImg": "/images/sdkicon.png",
                         "sdkImgAlt": "SDK Icon",
                         "title": "SDK Integration"                    
                     },
                     "cardBack": {
-                        "sdkImg": "/images/sdkorange1.png",
+                        "sdkImg": "/images/sdkicon.png",
                         "sdkImgAlt": "SDK Icon",
                         "title": "SDK Integration",
                         "backtext": "Easy-to-include libraries and modular code packages. No-fuss integration to get your payments up in no time at all.",
@@ -80,12 +80,12 @@
                 },
                 {
                     "cardFront": {
-                        "sdkImg": "/images/sdkpink1.png",
+                        "sdkImg": "/images/efficiency.svg",
                         "sdkImgAlt": "SDK Icon",
                         "title": "Increase Efficiency & Reduce Cost"                    
                     },
                     "cardBack": {
-                        "sdkImg": "/images/sdkpink1.png",
+                        "sdkImg": "/images/efficiency.svg",
                         "sdkImgAlt": "SDK Icon",
                         "title": "Increase Efficiency & Reduce Cost",
                         "backtext": "With easy payment integration into your IT systems, automate reconciliations and settle transactions easily.",
@@ -103,12 +103,12 @@
                 },
                 {
                     "cardFront": {
-                        "sdkImg": "/images/svgicon.svg",
+                        "sdkImg": "/images/accelerate.svg",
                         "sdkImgAlt": "SDK Icon",
                         "title": "Accelerate Sales"                    
                     },
                     "cardBack": {
-                        "sdkImg": "/images/sdkyellow1.png",
+                        "sdkImg": "/images/accelerate.png",
                         "sdkImgAlt": "SDK Icon",
                         "title": "Accelerate Sales",
                         "backtext": "Upsell easily using instant and hassle-free EMI options. Use My Khaata to digitally record credit sales.",
