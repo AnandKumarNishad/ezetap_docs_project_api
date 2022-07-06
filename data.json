@@ -103,7 +103,7 @@
                 },
                 {
                     "cardFront": {
-                        "sdkImg": "/images/sdkyellow1.png",
+                        "sdkImg": "/images/svgicon.svg",
                         "sdkImgAlt": "SDK Icon",
                         "title": "Accelerate Sales"                    
                     },
