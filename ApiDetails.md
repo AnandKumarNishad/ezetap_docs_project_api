@@ -1,12 +1,4 @@
-# PUSH TO PAY
-
-## Pre-requisites to use Push To Pay Solution
-* Merchant system must have Internet Connectivity (Wi-Fi or Mobile Hotspot)
-* Merchant system able to call/ access any external API like Ezetap P2P API from their
-own system
-* Using minimum TLS 1.2 protocol (Transport Layer Security).
-
-## Push to Pay Solution for Android POS device
+# Solution for Android POS device
 
 #### 1. What is Push to Pay Solution?
 
@@ -16,7 +8,7 @@ Ezetap’ s Push to pay solution allows seamless integration with Customer’s e
 
 Push to pay a server-to-server communication enabled by the billing application to the Android POS device. The device receives payment notification for which payment can be collected via different payment modes. This solution is compatible with Windows, iOS, Linus & Android platforms.
 
-#### About Android POS device:
+#### 1.1 About Android POS device:
 The Android POS is an Android based Smart device. It is a standalone SIM + Wi-Fi enabled device, which can enable various modes of payments such as
 1. Cash
 2. Cards
@@ -31,6 +23,12 @@ The transaction flow in case of Android POS is as follows:
 4. Agent follows the steps as displayed on the device and collects the payment
 5. Agents print the transaction receipts and hands over the same to Customer.
 6. The Customer CRM is updated (if integrated) with the transaction details as well.
+
+#### 1.2 Pre-requisites to use Push To Pay Solution
+* Merchant system must have Internet Connectivity (Wi-Fi or Mobile Hotspot)
+* Merchant system able to call/ access any external API like Ezetap P2P API from their
+own system
+* Using minimum TLS 1.2 protocol (Transport Layer Security).
 
 #### 2. How to get started with Push to Pay Integration?
 
