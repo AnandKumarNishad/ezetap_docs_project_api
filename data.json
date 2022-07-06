@@ -80,12 +80,12 @@
                 },
                 {
                     "cardFront": {
-                        "sdkImg": "/images/sdk.svg",
+                        "sdkImg": "/images/sdkpink1.png",
                         "sdkImgAlt": "SDK Icon",
                         "title": "Increase Efficiency & Reduce Cost"                    
                     },
                     "cardBack": {
-                        "sdkImg": "/images/sdk2.svg",
+                        "sdkImg": "/images/sdkpink1.png",
                         "sdkImgAlt": "SDK Icon",
                         "title": "Increase Efficiency & Reduce Cost",
                         "backtext": "With easy payment integration into your IT systems, automate reconciliations and settle transactions easily.",
