@@ -1,4 +1,4 @@
-## API Details
+## Push To Pay API Details
 We have a set of APIs available to enable integration with billing system. Below are the details of these APIs.
 
 1. Start API
