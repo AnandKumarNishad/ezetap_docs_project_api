@@ -46,7 +46,7 @@ You can reach-out to Devsupport@ezetap.com or the respective Ezetap SPOC during 
 ## API Details for Android POS
 We have a set of APIs available to enable integration with billing system. Below are the details of these APIs.
 
-1. <Link to = '/apiDetails/startApi'>Start API</Link>
+1. <a href = '/apiDetails/startApi'>Start API</a>
 2. <Link to = '/apiDetails/statusApi'>Status API</Link>
 3. <Link to = '/apiDetails/cancelApi'>Cancel API</Link>
 
