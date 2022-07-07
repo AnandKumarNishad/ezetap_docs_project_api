@@ -48,7 +48,7 @@ We have a set of APIs available to enable integration with billing system. Below
 
 1. [Start API](/apiDetails/startApi)
 2. <Link to = '/apiDetails/statusApi'>Status API</Link>
-3. <Link to = '/apiDetails/cancelApi'>Cancel API</Link>
+3. [Cancel API](/apiDetails/cancelApi)
 
 > **NOTE:** All request/responses are of type application/json
 
