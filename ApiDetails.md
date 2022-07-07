@@ -3,10 +3,9 @@
 #### 1. What is Push to Pay Solution?
 
 ![Push To Pay flow](/images/flow.png "Push To Pay")
-
-
-
-Ezetap’ s Push to pay solution allows seamless integration with Customer’s existing web-based application.
+<br>
+<br>
+Ezetap’s Push to pay solution allows seamless integration with Customer’s existing web-based application.
 
 Push to pay a server-to-server communication enabled by the billing application to the Android POS device. The device receives payment notification for which payment can be collected via different payment modes. This solution is compatible with Windows, iOS, Linus & Android platforms.
 
