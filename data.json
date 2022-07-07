@@ -20,7 +20,7 @@
         "sideNavbar": [
             {
                 "type": "home",
-                "class": "navBtns active",
+                "class": "navBtns",
                 "icon": "/images/home.svg",
                 "iconAlt": "home icon",
                 "text": "Home",
