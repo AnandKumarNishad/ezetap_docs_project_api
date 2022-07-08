@@ -8,7 +8,6 @@
         { "parameter": "amountCashBack", "datatype": "BigDecimal", "description": "CashBack amount if required (Optional)" },
         { "parameter": "amountAdditional", "datatype": "BigDecimal", "description": "Additional Amount if required (Optional)" },
         { "parameter": "externalRefNumber", "datatype": "String", "description": "Reference number of the bill (Mandatory). This must be unique for every transaction." },
-        
         { "parameter": "customerMobileNumber", "datatype": "String", "description": "Customer mobile number (Optional)" },
         { "parameter": "customerEmail", "datatype": "String", "description": "Customer's email id (Optional)" },
         { "parameter": "customerName", "datatype": "String", "description": "Customer's Name (Optional)" },

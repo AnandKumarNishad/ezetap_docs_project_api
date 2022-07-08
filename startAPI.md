@@ -19,7 +19,7 @@ This API must be invoked by the billing application to send payment notification
 
 <table class = "params">
 <thead class = "paramhead">
-<tr><th class = "parameter">Parameter</th><th class = "datatype">hbvj</th><th class = "Desc">bhjk</th></tr>
+<tr><th class = "parameter">Parameter</th><th class = "datatype">Datatype</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
 <tr><td>appKey</td><td>String(50)</td><td>APP key shared by Ezetap (Mandatory)</td></tr>
@@ -30,6 +30,18 @@ This API must be invoked by the billing application to send payment notification
 <tr><td>amountCashBack</td><td>BigDecimal</td><td>CashBack amount if required (Optional)</td></tr>
 <tr><td>amountAdditional</td><td>BigDecimal</td><td>Additional Amount if required (Optional)</td></tr>
 <tr><td>externalRefNumber</td><td>String</td><td>Reference number of the bill (Mandatory). This must be unique for every transaction.</td></tr>
+<tr><td>customerMobileNumber</td><td>String</td><td>Customer mobile number (Optional)</td></tr>
+<tr><td>customerEmail</td><td>String</td><td>Customer's email id (Optional)</td></tr>
+<tr><td>customerName</td><td>String</td><td>Customer's Name (Optional)</td></tr>
+<tr><td>accountLabels</td><td>List of Strings</td><td>Labels is the list of tags. It is used for passing MID/TID labels in multi-TID case (Optional)</td></tr>
+<tr><td>externalRefNumber2</td><td>String</td><td>Optional</td></tr>
+<tr><td>externalRefNumber3</td><td>String</td><td>Optional</td></tr>
+<tr><td>externalRefNumber4</td><td>String</td><td>Optional</td></tr>
+<tr><td>externalRefNumbers</td><td>set of Strings</td><td>Optional</td></tr>
+<tr><td>additionalData</td><td>Json String</td><td>AdditionalData is json (Optional)</td></tr>
+<tr><td>orgCode</td><td>String</td><td>Merchant's orgCode (Optional)</td></tr>
+<tr><td>paymentBy</td><td>String</td><td>For service fees configuration, this is DEBIT|CREDIT (Optional)</td></tr>
+<tr><td>paymentMode</td><td>String</td><td>For service fees configuration, this is CARD (Optional)</td></tr>
 </tbody>
 </table>
 
