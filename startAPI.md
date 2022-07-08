@@ -18,16 +18,20 @@ This API must be invoked by the billing application to send payment notification
 |pushTo|Json with “deviceId” as String (250)"|PushTo is a json with destination info like Device id of the pos on which notification will be sent (Mandatory). Please refer the syntax in Sample request 'pushTo': { 'deviceId': '<device serial number>, ezetap_android| -->
 
 <table>
-<th>
-<td>parameter</td>
-<td>hbvj</td>
-<td>bhjk</td>
-</th>
+<thead>
+<tr>
+<th>parameter</th>
+<th>hbvj</th>
+<th>bhjk</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>parameter</td>
 <td>hbvj</td>
 <td>bhjk</td>
 </tr>
+</tbody>
 </table>
 #### Sample Request & Response
 
