@@ -8,6 +8,14 @@ This API must be invoked by the billing application to send payment notification
 - HTTP Method: POST
 - Request HTTP Headers: Content-Type: application/json
 
+> **NOTE:** All request/responses are of type application/json
+
+### Start API Request Parameters
+
+|Parameter|Datatype|Description|
+|---------|--------|-----------|
+|appKey|String(50)|APP key shared by Ezetap (Mandatory)|
+
 #### Sample Request & Response
 
 |Sample Request|Sample Response|
