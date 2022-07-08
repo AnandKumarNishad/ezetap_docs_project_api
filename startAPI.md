@@ -18,15 +18,21 @@ This API must be invoked by the billing application to send payment notification
 |pushTo|Json with “deviceId” as String (250)"|PushTo is a json with destination info like Device id of the pos on which notification will be sent (Mandatory). Please refer the syntax in Sample request 'pushTo': { 'deviceId': '<device serial number>, ezetap_android| -->
 
 <table class = "params">
-<thead class = "paramhead"><tr><th class = "parameter">Parameter</th><th class = "datatype">hbvj</th><th class = "Desc">bhjk</th></tr></thead>
+<thead class = "paramhead">
+<tr><th class = "parameter">Parameter</th><th class = "datatype">hbvj</th><th class = "Desc">bhjk</th></tr>
+</thead>
 <tbody>
-<tr>
-<td>parameter</td>
-<td>hbvj</td>
-<td>bhjk</td>
-</tr>
+<tr><td>appKey</td><td>String(50)</td><td>APP key shared by Ezetap (Mandatory)</td></tr>
+<tr><td>pushTo</td><td>Json with “deviceId” as String(250)</td><td>PushTo is a json with destination info like Device id of the pos on which notification will be sent (Mandatory) Please refer the syntax in Sample request 'pushTo': { 'deviceId': '<device serial number>|ezetap_android'}}</td></tr>
+<tr><td>username</td><td>String(20)</td><td>Username must be passed (Mandatory)</td></tr>
+<tr><td>description</td><td>String(50)</td><td>It describes the notification purpose (Optional)</td></tr>
+<tr><td>amount</td><td>BigDecimal</td><td>Transaction amount (Mandatory)</td></tr>
+<tr><td>amountCashBack</td><td>BigDecimal</td><td>CashBack amount if required (Optional)</td></tr>
+<tr><td>amountAdditional</td><td>BigDecimal</td><td>Additional Amount if required (Optional)</td></tr>
+<tr><td>externalRefNumber</td><td>String</td><td>Reference number of the bill (Mandatory). This must be unique for every transaction.</td></tr>
 </tbody>
 </table>
+
 #### Sample Request & Response
 
 |Sample Request|Sample Response|
