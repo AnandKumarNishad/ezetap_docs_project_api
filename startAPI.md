@@ -12,10 +12,18 @@ This API must be invoked by the billing application to send payment notification
 
 ### Start API Request Parameters
 
-|Parameter|Datatype|Description|
+<!-- |Parameter|Datatype|Description|
 |---------|--------|-----------|
 |appKey|String(50)|APP key shared by Ezetap (Mandatory)|
-|pushTo|Json with “deviceId” as String (250)"|PushTo is a json with destination info like Device id of the pos on which notification will be sent (Mandatory). Please refer the syntax in Sample request 'pushTo': { 'deviceId': '<device serial number>, ezetap_android|
+|pushTo|Json with “deviceId” as String (250)"|PushTo is a json with destination info like Device id of the pos on which notification will be sent (Mandatory). Please refer the syntax in Sample request 'pushTo': { 'deviceId': '<device serial number>, ezetap_android| -->
+
+<table>
+<th>
+<td>parameter</td>
+<td>hbvj</td>
+<td>bhjk</td>
+</th>
+</table>
 #### Sample Request & Response
 
 |Sample Request|Sample Response|
