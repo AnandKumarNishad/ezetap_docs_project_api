@@ -23,6 +23,11 @@ This API must be invoked by the billing application to send payment notification
 <td>hbvj</td>
 <td>bhjk</td>
 </th>
+<tr>
+<td>parameter</td>
+<td>hbvj</td>
+<td>bhjk</td>
+</tr>
 </table>
 #### Sample Request & Response
 
