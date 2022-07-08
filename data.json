@@ -40,7 +40,7 @@
                 "icon": "/images/apiIcon.svg",
                 "iconAlt": "api icon",
                 "text": "API Details",
-                "route": "/apiDetails"
+                "route": "/apiDetails/startApi"
             }
         ],
         "headerArea": [
