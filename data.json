@@ -72,7 +72,7 @@
                             "title3": "Merchant Portal"
                         },
                         "linkTo": {
-                            "link1": "/apiDetails",
+                            "link1": "/features",
                             "link2": "/",
                             "link3": "/"
                         }
