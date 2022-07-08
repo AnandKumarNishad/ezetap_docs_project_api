@@ -164,17 +164,20 @@
                         {
                             "li": "Start API",
                             "id": "start",
-                            "route": "/apiDetails/startApi"
+                            "route": "/apiDetails/startApi",
+                            "class": "activeapiname"
                         },
                         {
                             "li": "Status API",
                             "id": "status",
-                            "route": "/apiDetails/statusApi"
+                            "route": "/apiDetails/statusApi",
+                            "class": ""
                         },
                         {
                             "li": "Cancel API",
                             "id": "cancel",
-                            "route": "/apiDetails/cancelApi"
+                            "route": "/apiDetails/cancelApi",
+                            "class": ""
                         }
                     ]
                 }
