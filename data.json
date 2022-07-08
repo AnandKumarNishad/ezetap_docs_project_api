@@ -158,7 +158,7 @@
                     "arrImgAlt": "double arrow",
                     "SecTab":{
                         "first": "Push To Pay",
-                        "route": "/apiDetail/startApi"
+                        "route": "/apiDetails/startApi"
                     },
                     "secTabList":[
                         {
