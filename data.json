@@ -202,6 +202,42 @@
                         "id": "curl"
                     }
                 ]
+            },
+            {
+                "secListHeading" : "Start API",
+                "id": "main",
+                "secList": [
+                    {
+                        "li": "Parameter",
+                        "id": "parameter"
+                    },
+                    {
+                        "li": "Sample Request & Response",
+                        "id": "sampleReqRes"
+                    },
+                    {
+                        "li": "Curl Request",
+                        "id": "curl"
+                    }
+                ]
+            },
+            {
+                "secListHeading" : "Start API",
+                "id": "main",
+                "secList": [
+                    {
+                        "li": "Parameter",
+                        "id": "parameter"
+                    },
+                    {
+                        "li": "Sample Request & Response",
+                        "id": "sampleReqRes"
+                    },
+                    {
+                        "li": "Curl Request",
+                        "id": "curl"
+                    }
+                ]
             }
         ],
         "tableTitle": "Start API Request Parameters"
