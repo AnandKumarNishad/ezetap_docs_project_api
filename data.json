@@ -187,19 +187,19 @@
         "rightInPageNavi":[
             {
                 "secListHeading" : "Start API",
-                "route": "#main",
+                "id": "main",
                 "secList": [
                     {
                         "li": "Parameter",
-                        "liroute": "#parameter"
+                        "id": "parameter"
                     },
                     {
                         "li": "Sample Request & Response",
-                        "liroute": "#sampleReqRes"
+                        "id": "sampleReqRes"
                     },
                     {
                         "li": "Curl Request",
-                        "liroute": "#curl"
+                        "id": "curl"
                     }
                 ]
             }
