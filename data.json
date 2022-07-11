@@ -183,6 +183,27 @@
                 }
             }
         ],
+        "rightInPageNaviHeader": " On This Page ",
+        "rightInPageNavi":[
+            {
+                "secListHeading" : "Start API",
+                "route": "#main",
+                "secList": [
+                    {
+                        "li": "Parameter",
+                        "liroute": "#parameter"
+                    },
+                    {
+                        "li": "Sample Request & Response",
+                        "liroute": "#sampleReqRes"
+                    },
+                    {
+                        "li": "Curl Request",
+                        "liroute": "#curl"
+                    }
+                ]
+            }
+        ],
         "tableTitle": "Start API Request Parameters"
     }
 }
