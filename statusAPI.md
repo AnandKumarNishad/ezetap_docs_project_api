@@ -16,9 +16,9 @@ Once the notification is received on the device,this API must be invoked to retr
 <tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td><div>username</div><div><span>String</span></div><div><span>Mandatory</span></div></td><td><div><p>Username shared by Exetap</p></div></td></tr>
-<tr><td><div>appkey</div><div><span>String</span></div><div><span>Mandatory</span></div></td><td><div><p>appkey of the account</p></div></td></tr>
-<tr><td><div>origP2pRequestID</div><div><span>String</span></div><div><span>Mandatory</span></div></td><td><div><p>P2P request ID from the response of the start API call</p></div></td></tr>
+<tr><td><div class = "att">username</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>Username shared by Exetap</p></div></td></tr>
+<tr><td><div class = "att">appkey</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>appkey of the account</p></div></td></tr>
+<tr><td><div class = "att">origP2pRequestID</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>P2P request ID from the response of the start API call</p></div></td></tr>
 </tbody>
 </table>
 
@@ -30,12 +30,12 @@ Once the notification is received on the device,this API must be invoked to retr
 <tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td><div>success</div><div><span>Boolean</span></div></td><td><div><p>Indicates notification found</p></div></td></tr>
-<tr><td><div>errorCode</div><div><span>String(48)</span></div></td><td><div><p>Error Code if notification not found.</p></div></td></tr>
-<tr><td><div>errorMessage</div><div><span>String(256)</span></div></td><td><div><p>Descriptive error message for the above error code on notification status. This field will be empty for a successful initiation.</p></div></td></tr>
-<tr><td><div>message</div><div><span>String</span></div></td><td><div><p>It is descriptive information of pushToPay status, it also tells what the status is.</p></div></td></tr>
-<tr><td><div>messageCode</div><div><span>String</span></div></td><td><div><p>Message Code if notification status not found.</p></div></td></tr>
-<tr><td><div>status</div><div><span>String</span></div><div><span>Important Field</span></div></td><td><div><p>Only if status is "Authorized", payment is successful</p></div></td></tr>
+<tr><td><div class = "att">success</div><div class = "dt"><span>Boolean</span></div></td><td><div class = "descrip"><p>Indicates notification found</p></div></td></tr>
+<tr><td><div class = "att">errorCode</div><div class = "dt"><span>String(48)</span></div></td><td><div class = "descrip"><p>Error Code if notification not found.</p></div></td></tr>
+<tr><td><div class = "att">errorMessage</div><div class = "dt"><span>String(256)</span></div></td><td><div class = "descrip"><p>Descriptive error message for the above error code on notification status. This field will be empty for a successful initiation.</p></div></td></tr>
+<tr><td><div class = "att">message</div><div class = "dt"><span>String</span></div></td><td><div class = "descrip"><p>It is descriptive information of pushToPay status, it also tells what the status is.</p></div></td></tr>
+<tr><td><div class = "att">messageCode</div><div class = "dt"><span>String</span></div></td><td><div class = "descrip"><p>Message Code if notification status not found.</p></div></td></tr>
+<tr><td><div class = "att">status</div><div class = "dt"><span>String</span></div><div class = "dt"><span>Important Field</span></div></td><td><div class = "descrip"><p>Only if status is "Authorized", payment is successful</p></div></td></tr>
 </tbody>
 </table>
 
