@@ -191,19 +191,24 @@
                 "id": "main",
                 "secList": [
                     {
-                        "li": "Parameter",
+                        "li": "Request Parameter",
                         "id": "parameter",
                         "index": "1"
                     },
                     {
+                        "li": "Response Parameter",
+                        "id": "resparam",
+                        "index": "2"
+                    },
+                    {
                         "li": "Sample Request & Response",
                         "id": "sampleReqRes",
-                        "index": "2"
+                        "index": "3"
                     },
                     {
                         "li": "Curl Request",
                         "id": "curl",
-                        "index": "3"
+                        "index": "4"
                     }
                 ]
             }

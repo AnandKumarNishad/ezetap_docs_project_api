@@ -46,6 +46,23 @@ This API must be invoked by the billing application to send payment notification
 
 </section>
 
+<section id = "resparam">
+
+### Start API Request Parameters
+
+<table class = "params">
+<thead class = "paramhead">
+<tr><th class = "parameter">Parameter</th><th class = "datatype">Datatype</th><th class = "Desc">Description</th></tr>
+</thead>
+<tbody>
+<tr><td>success</td><td>Boolean</td><td>Indicates notification has been started successful or not</td></tr>
+<tr><td>errorCode</td><td>String(48)</td><td>Error code if notification has not initiated due to either token issue or wrong deviceId . It is empty for a successful creation</td></tr>
+<tr><td>errorMessage</td><td>String(256)</td><td>Descriptive error message for the above error code on notification initiation. This field will be empty for a successful initiation.</td></tr>
+</tbody>
+</table>
+
+</section>
+
 <section id = "sampleReqRes">
 
 #### Sample Request & Response
