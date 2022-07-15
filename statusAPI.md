@@ -9,36 +9,35 @@ Once the notification is received on the device,this API must be invoked to retr
 - Request HTTP Headers: Content-Type: application/json
 
 
-### Start API Request Parameters
+### Status API Request Parameters
 
 <table class = "params">
 <thead class = "paramhead">
-<tr><th class = "parameter">Parameter</th><th class = "datatype">Datatype</th><th class = "Desc">Description</th></tr>
+<tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td>appKey</td><td>String(50)</td><td>APP key shared by Ezetap (Mandatory)</td></tr>
-<tr><td>pushTo</td><td>Json with “deviceId” as String(250)</td><td>PushTo is a json with destination info like Device id of the pos on which notification will be sent (Mandatory) Please refer the syntax in Sample request 'pushTo': { 'deviceId': 'device serial number'|ezetap_android'}}</td></tr>
-<tr><td>username</td><td>String(20)</td><td>Username must be passed (Mandatory)</td></tr>
-<tr><td>description</td><td>String(50)</td><td>It describes the notification purpose (Optional)</td></tr>
-<tr><td>amount</td><td>BigDecimal</td><td>Transaction amount (Mandatory)</td></tr>
-<tr><td>amountCashBack</td><td>BigDecimal</td><td>CashBack amount if required (Optional)</td></tr>
-<tr><td>amountAdditional</td><td>BigDecimal</td><td>Additional Amount if required (Optional)</td></tr>
-<tr><td>externalRefNumber</td><td>String</td><td>Reference number of the bill (Mandatory). This must be unique for every transaction.</td></tr>
-<tr><td>customerMobileNumber</td><td>String</td><td>Customer mobile number (Optional)</td></tr>
-<tr><td>customerEmail</td><td>String</td><td>Customer's email id (Optional)</td></tr>
-<tr><td>customerName</td><td>String</td><td>Customer's Name (Optional)</td></tr>
-<tr><td>accountLabels</td><td>List of Strings</td><td>Labels is the list of tags. It is used for passing MID/TID labels in multi-TID case (Optional)</td></tr>
-<tr><td>externalRefNumber2</td><td>String</td><td>Optional</td></tr>
-<tr><td>externalRefNumber3</td><td>String</td><td>Optional</td></tr>
-<tr><td>externalRefNumber4</td><td>String</td><td>Optional</td></tr>
-<tr><td>externalRefNumbers</td><td>set of Strings</td><td>Optional</td></tr>
-<tr><td>additionalData</td><td>Json String</td><td>AdditionalData is json (Optional)</td></tr>
-<tr><td>orgCode</td><td>String</td><td>Merchant's orgCode (Optional)</td></tr>
-<tr><td>paymentBy</td><td>String</td><td>For service fees configuration, this is DEBIT|CREDIT (Optional)</td></tr>
-<tr><td>paymentMode</td><td>String</td><td>For service fees configuration, this is CARD (Optional)</td></tr>
+<tr><td>username<span>String</span><span>Mandatory</span></td><td>Username shared by Exetap</td></tr>
+<tr><td>appkey<span>String</span><span>Mandatory</span></td><td>appkey of the account</td></tr>
+<tr><td>origP2pRequestID<span>String</span><span>Mandatory</span></td><td>P2P request ID from the response of the start API call </td></tr>
 </tbody>
 </table>
 
+
+### Status API Response Parameters
+
+<table class = "params">
+<thead class = "paramhead">
+<tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
+</thead>
+<tbody>
+<tr><td>success<span>Boolean</span></td><td>Indicates notification found</td></tr>
+<tr><td>errorCode<span>String(48)</span></td><td>Error Code if notification not found.</td></tr>
+<tr><td>errorMessage<span>String(256)</span></td><td>Descriptive error message for the above error code on notification status. This field will be empty for a successful initiation.</td></tr>
+<tr><td>message<span>String</span></td><td>It is descriptive information of pushToPay status, it also tells what the status is.</td></tr>
+<tr><td>messageCode<span>String</span></td><td>Message Code if notification status not found.</td></tr>
+<tr><td>status<span>String</span><span>Important Field</span></td><td>Only if status is "Authorized", payment is successful</td></tr>
+</tbody>
+</table>
 
 
 #### Sample Request & Response
