@@ -30,12 +30,12 @@ Once the notification is received on the device,this API must be invoked to retr
 <tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td>success<br><span>Boolean</span></td><td>Indicates notification found</td></tr>
-<tr><td>errorCode<br><span>String(48)</span></td><td>Error Code if notification not found.</td></tr>
-<tr><td>errorMessage<br><span>String(256)</span></td><td>Descriptive error message for the above error code on notification status. This field will be empty for a successful initiation.</td></tr>
-<tr><td>message<br><span>String</span></td><td>It is descriptive information of pushToPay status, it also tells what the status is.</td></tr>
-<tr><td>messageCode<br><span>String</span></td><td>Message Code if notification status not found.</td></tr>
-<tr><td>status<br><span>String</span><span>Important Field</span></td><td>Only if status is "Authorized", payment is successful</td></tr>
+<tr><td><div>success</div><div><span>Boolean</span></div></td><td><div><p>Indicates notification found</p></div></td></tr>
+<tr><td><div>errorCode</div><div><span>String(48)</span></div></td><td><div><p>Error Code if notification not found.</p></div></td></tr>
+<tr><td><div>errorMessage</div><div><span>String(256)</span></div></td><td><div><p>Descriptive error message for the above error code on notification status. This field will be empty for a successful initiation.</p></div></td></tr>
+<tr><td><div>message</div><div><span>String</span></div></td><td><div><p>It is descriptive information of pushToPay status, it also tells what the status is.</p></div></td></tr>
+<tr><td><div>messageCode</div><div><span>String</span></div></td><td><div><p>Message Code if notification status not found.</p></div></td></tr>
+<tr><td><div>status</div><div><span>String</span></div><div?><span>Important Field</span></div></td><td><div><p>Only if status is "Authorized", payment is successful</p></div></td></tr>
 </tbody>
 </table>
 
