@@ -11,7 +11,7 @@ Cancellation will happen even when the device has received notification. In such
 <span class="bold ital">Best Practice:</span><span class="ital"> Merchant should use cancel API after every 150 secs of the start API is initiated the transaction. In the scenario where the transaction is sent to device and is not completed for 150 secs. Then the request of transaction will be cancelled automatically.</span>
 </div>
 
-***Demo and Production P@P 3.0 Cancel API URL:***
+**Demo and Production P@P 3.0 Cancel API URL:**
 - Demo URL: https://demo.ezetap.com/api/3.0/p2p/cancel
 - Production: https://www.ezetap.com/api/3.0/p2p/cancel
 - HTTP Method: POST
