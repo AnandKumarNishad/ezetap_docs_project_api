@@ -8,7 +8,7 @@ Cancellation will happen even when the device has received notification. In such
 - In the above scenario, the cancellation request will be accepted until the device has submitted payment. Otherwise, it will respond with *P2P_PAYMENT_INITIATED* error code.
 
 <div class="abc">
-<span class="bold">Best Practice:</span><span class="ital"> Merchant should use cancel API after every 150 secs of the start API is initiated the transaction. In the scenario where the transaction is sent to device and is not completed for 150 secs. Then the request of transaction will be cancelled automatically.</span>
+<span class="bold ital">Best Practice:</span><span class="ital"> Merchant should use cancel API after every 150 secs of the start API is initiated the transaction. In the scenario where the transaction is sent to device and is not completed for 150 secs. Then the request of transaction will be cancelled automatically.</span>
 </div>
 
 ***Demo and Production P@P 3.0 Cancel API URL:***

@@ -4,7 +4,7 @@
 
 This API must be invoked by the billing application to send payment notification to the device.
 
-***Demo and Production P2P 3.0 Start API URL***
+**Demo and Production P2P 3.0 Start API URL**
 - Demo URL: https://demo.ezetap.com/api/3.0/p2p/start
 - Production: https://www.ezetap.com/api/3.0/p2p/start
 - HTTP Method: POST

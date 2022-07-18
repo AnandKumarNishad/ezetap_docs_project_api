@@ -2,7 +2,7 @@
 
 Once the notification is received on the device,this API must be invoked to retrieve the status of payment.
 
-***Demo and Production P2P 3.0 Status API URL:***
+**Demo and Production P2P 3.0 Status API URL:**
 - Demo URL: https://demo.ezetap.com/api/3.0/p2p/status
 - Production URL: https://www.ezetap.com/api/3.0/p2p/status
 - HTTP Method: POST
