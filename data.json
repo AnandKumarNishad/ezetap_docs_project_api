@@ -192,7 +192,7 @@
                 "secList": [
                     {
                         "li": "Request Parameter",
-                        "id": "rparameter",
+                        "id": "parameter",
                         "index": "1"
                     },
                     {
