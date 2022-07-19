@@ -3,7 +3,6 @@
 ## Start API
 
 #### Use case
-
 This API must be invoked by the billing application to send payment notification to the device.
 
 > **NOTE:** All request/responses are of type application/json
