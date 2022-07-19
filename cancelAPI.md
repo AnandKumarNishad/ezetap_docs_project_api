@@ -1,6 +1,7 @@
 ## Cancel API
 
 <h3 class= "use">Use case</h3>
+
 This API must be invoked to cancel a notification that is queued up on the server or has been received on the device.
 
 Cancellation will happen even when the device has received notification. In such a scenario it will prompt the user *“notification cancel”* message and removes the notification.
