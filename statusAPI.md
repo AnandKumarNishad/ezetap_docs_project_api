@@ -10,7 +10,7 @@ Once the notification is received on the device,this API must be invoked to retr
 <tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td><div class = "att">username</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>Username shared by Exetap</p></div></td></tr>
+<tr><td><div class = "att">username</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>Username shared by Ezetap</p></div></td></tr>
 <tr><td><div class = "att">appkey</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>appkey of the account</p></div></td></tr>
 <tr><td><div class = "att">origP2pRequestID</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>P2P request ID from the response of the start API call</p></div></td></tr>
 </tbody>
