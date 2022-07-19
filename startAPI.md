@@ -3,6 +3,7 @@
 ## Start API
 
 <h3 class= "use">Use case</h3>
+<hr>
 
 This API must be invoked by the billing application to send payment notification to the device.
 
