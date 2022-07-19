@@ -11,11 +11,22 @@ Cancellation will happen even when the device has received notification. In such
 <span class="bold ital">Best Practice:</span><span class="ital"> Merchant should use cancel API after every 150 secs of the start API is initiated the transaction. In the scenario where the transaction is sent to device and is not completed for 150 secs. Then the request of transaction will be cancelled automatically.</span>
 </div>
 
-**Demo and Production P@P 3.0 Cancel API URL:**
-- Demo URL: https://demo.ezetap.com/api/3.0/p2p/cancel
-- Production: https://www.ezetap.com/api/3.0/p2p/cancel
-- HTTP Method: POST
-- Request HTTP Headers: Content-Type: application/json
+### Response Parameters
+
+<table class = "params">
+<thead class = "paramhead">
+<tr><th class = "parameter">Parameter</th><th class = "datatype">Datatype</th><th class = "Desc">Description</th></tr>
+</thead>
+<tbody>
+<tr><td>username</td><td>String</td><td>Any username (Mandatory)</td></tr>
+<tr><td>appKey</td><td>String</td><td>account appKey (Mandatory)</td></tr>
+<tr><td>origP2pRequestId</td><td>String</td><td>Request ID returned by the start API call (Mandatory)</td></tr>
+<tr><td>pushTo</td><td>JSON with "deviceId" as String(250)</td><td>PushTo is a json with destination info like Device id of the pos on which notification is sent (Mandatory)<br>Please refer the syntax in Sample request
+"pushTo": { "deviceId": "<device serial
+number>|ezetap_android"}
+}</td></tr>
+</tbody>
+</table>
 
 #### Sample Request & Response
 

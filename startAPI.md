@@ -1,20 +1,13 @@
 <section id = "main">
 
 ## Start API
-
 This API must be invoked by the billing application to send payment notification to the device.
-
-**Demo and Production P2P 3.0 Start API URL**
-- Demo URL: https://demo.ezetap.com/api/3.0/p2p/start
-- Production: https://www.ezetap.com/api/3.0/p2p/start
-- HTTP Method: POST
-- Request HTTP Headers: Content-Type: application/json
 
 > **NOTE:** All request/responses are of type application/json
 
 <section id = "parameter">
 
-### Start API Request Parameters
+### Request Parameters
 
 <table class = "params">
 <thead class = "paramhead">
@@ -48,7 +41,7 @@ This API must be invoked by the billing application to send payment notification
 
 <section id = "resparam">
 
-### Start API Request Parameters
+### Response Parameters
 
 <table class = "params">
 <thead class = "paramhead">
