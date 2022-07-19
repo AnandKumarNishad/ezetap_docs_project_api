@@ -1,4 +1,5 @@
 ## Cancel API
+#### Use case
 
 This API must be invoked to cancel a notification that is queued up on the server or has been received on the device.
 

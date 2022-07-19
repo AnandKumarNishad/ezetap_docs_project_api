@@ -1,5 +1,7 @@
 ## Status API
 
+#### Use case
+
 Once the notification is received on the device,this API must be invoked to retrieve the status of payment.
 
 ### Request Parameters
