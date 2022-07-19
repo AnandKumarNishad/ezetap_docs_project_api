@@ -21,7 +21,7 @@ Cancellation will happen even when the device has received notification. In such
 <tr><td>username</td><td>String</td><td>Any username (Mandatory)</td></tr>
 <tr><td>appKey</td><td>String</td><td>account appKey (Mandatory)</td></tr>
 <tr><td>origP2pRequestId</td><td>String</td><td>Request ID returned by the start API call (Mandatory)</td></tr>
-<tr><td>pushTo</td><td>JSON with "deviceId" as String(250)</td><td>PushTo is a json with destination info like Device id of the pos on which notification is sent (Mandatory)<br><span class = "refer"> Please refer the syntax in Sample request</span><br><br>"pushTo": { "deviceId": "< device serial number >|ezetap_android"}<br>}</td></tr>
+<tr><td>pushTo</td><td>JSON with "deviceId" as String(250)</td><td>PushTo is a json with destination info like Device id of the pos on which notification is sent (Mandatory)<br><br><span class = "refer"> Please refer the syntax in Sample request</span><br>"pushTo": { "deviceId": "< device serial number > | ezetap_android"}<br>}</td></tr>
 </tbody>
 </table>
 
