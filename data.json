@@ -177,6 +177,30 @@
                                         "class": ""
                                     }
                                 ]
+                            },
+                            {
+                                "first": "Pull To Pay",
+                                "route": "/apiDetails/startApi",
+                                "secTabList":[
+                                    {
+                                        "li": "Sta API",
+                                        "id": "start",
+                                        "route": "/apiDetails/startApi",
+                                        "class": "activeapiname"
+                                    },
+                                    {
+                                        "li": "Sta API",
+                                        "id": "status",
+                                        "route": "/apiDetails/statusApi",
+                                        "class": ""
+                                    },
+                                    {
+                                        "li": "Can API",
+                                        "id": "cancel",
+                                        "route": "/apiDetails/cancelApi",
+                                        "class": ""
+                                    }
+                                ]
                             }
                         ]
                     }
