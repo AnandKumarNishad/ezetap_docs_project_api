@@ -148,39 +148,39 @@
                         "route": "/features"
                     }
                 },
-                "API": {
-                    "mainTab": [
-                        {
-                            "title": "SDK Integration"
-                        }
-                    ],
-                    "arrowImg": "/images/doublearrow.svg",
-                    "arrImgAlt": "double arrow",
-                    "SecTab":{
-                        "first": "Push To Pay",
-                        "route": "/apiDetails/startApi"
-                    },
-                    "secTabList":[
-                        {
-                            "li": "Start API",
-                            "id": "start",
-                            "route": "/apiDetails/startApi",
-                            "class": "activeapiname"
-                        },
-                        {
-                            "li": "Status API",
-                            "id": "status",
-                            "route": "/apiDetails/statusApi",
-                            "class": ""
-                        },
-                        {
-                            "li": "Cancel API",
-                            "id": "cancel",
-                            "route": "/apiDetails/cancelApi",
-                            "class": ""
-                        }
-                    ]
-                }
+                "API": [
+                    {
+                        "title": "SDK Integration",
+                        "arrowImg": "/images/doublearrow.svg",
+                        "arrImgAlt": "double arrow",
+                        "SecTab":[
+                            {
+                                "first": "Push To Pay",
+                                "route": "/apiDetails/startApi",
+                                "secTabList":[
+                                    {
+                                        "li": "Start API",
+                                        "id": "start",
+                                        "route": "/apiDetails/startApi",
+                                        "class": "activeapiname"
+                                    },
+                                    {
+                                        "li": "Status API",
+                                        "id": "status",
+                                        "route": "/apiDetails/statusApi",
+                                        "class": ""
+                                    },
+                                    {
+                                        "li": "Cancel API",
+                                        "id": "cancel",
+                                        "route": "/apiDetails/cancelApi",
+                                        "class": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "rightInPageNaviHeader": " On This Page ",
