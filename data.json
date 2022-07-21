@@ -180,7 +180,7 @@
                             },
                             {
                                 "first": "User Agreement",
-                                "route": "",
+                                "route": "/apiDetails/startApi",
                                 "secTabList":[
                                     {
                                         "li": "Create API",
@@ -204,7 +204,7 @@
                             },
                             {
                                 "first": "User Consent",
-                                "route": "",
+                                "route": "/apiDetails/startApi",
                                 "secTabList":[
                                     {
                                         "li": "Create API",
