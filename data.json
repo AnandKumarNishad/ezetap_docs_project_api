@@ -179,24 +179,48 @@
                                 ]
                             },
                             {
-                                "first": "Pull To Pay",
+                                "first": "User Agreement",
                                 "route": "",
                                 "secTabList":[
                                     {
-                                        "li": "Start API",
-                                        "id": "start",
-                                        "route": "",
-                                        "class": "activeapiname"
-                                    },
-                                    {
-                                        "li": "Status API",
-                                        "id": "status",
+                                        "li": "Create API",
+                                        "id": "createua",
                                         "route": "",
                                         "class": ""
                                     },
                                     {
-                                        "li": "Cancel API",
-                                        "id": "cancel",
+                                        "li": "Update API",
+                                        "id": "updateua",
+                                        "route": "",
+                                        "class": ""
+                                    },
+                                    {
+                                        "li": "Fetch API",
+                                        "id": "fetchua",
+                                        "route": "",
+                                        "class": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "first": "User Consent",
+                                "route": "",
+                                "secTabList":[
+                                    {
+                                        "li": "Create API",
+                                        "id": "createuc",
+                                        "route": "",
+                                        "class": ""
+                                    },
+                                    {
+                                        "li": "Update API",
+                                        "id": "updateuc",
+                                        "route": "",
+                                        "class": ""
+                                    },
+                                    {
+                                        "li": "Fetch API",
+                                        "id": "fetchuc",
                                         "route": "",
                                         "class": ""
                                     }
