@@ -185,19 +185,19 @@
                                     {
                                         "li": "Create API",
                                         "id": "createua",
-                                        "route": "",
+                                        "route": "/apiDetails/startApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Update API",
                                         "id": "updateua",
-                                        "route": "",
+                                        "route": "/apiDetails/startApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Fetch API",
                                         "id": "fetchua",
-                                        "route": "",
+                                        "route": "/apiDetails/startApi",
                                         "class": ""
                                     }
                                 ]
@@ -209,19 +209,19 @@
                                     {
                                         "li": "Create API",
                                         "id": "createuc",
-                                        "route": "",
+                                        "route": "/apiDetails/startApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Update API",
                                         "id": "updateuc",
-                                        "route": "",
+                                        "route": "/apiDetails/startApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Fetch API",
                                         "id": "fetchuc",
-                                        "route": "",
+                                        "route": "/apiDetails/startApi",
                                         "class": ""
                                     }
                                 ]
