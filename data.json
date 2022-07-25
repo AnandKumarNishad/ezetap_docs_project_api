@@ -162,7 +162,7 @@
                                         "li": "Start API",
                                         "id": "start",
                                         "route": "/apiDetails/startApi",
-                                        "class": "activeapiname"
+                                        "class": "start"
                                     },
                                     {
                                         "li": "Status API",
@@ -180,24 +180,24 @@
                             },
                             {
                                 "first": "User Agreement",
-                                "route": "/apiDetails/startApi",
+                                "route": "#",
                                 "secTabList":[
                                     {
                                         "li": "Create API",
                                         "id": "createua",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "#",
                                         "class": ""
                                     },
                                     {
                                         "li": "Update API",
                                         "id": "updateua",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "#",
                                         "class": ""
                                     },
                                     {
                                         "li": "Fetch API",
                                         "id": "fetchua",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "#",
                                         "class": ""
                                     }
                                 ]
