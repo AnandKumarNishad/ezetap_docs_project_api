@@ -235,13 +235,13 @@
                                 "route": "/apiDetails/startApi",
                                 "secTabList":[
                                     {
-                                        "li": "",
+                                        "li": "a",
                                         "id": "q",
                                         "route": "",
                                         "class": ""
                                     },
                                     {
-                                        "li": "",
+                                        "li": "a1",
                                         "id": "qwd",
                                         "route": "",
                                         "class": ""
