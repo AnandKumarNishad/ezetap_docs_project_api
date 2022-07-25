@@ -185,13 +185,13 @@
                                     {
                                         "li": "Create API",
                                         "id": "createua",
-                                        "route": " ",
+                                        "route": "/apiDetails/startApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Update API",
                                         "id": "updateua",
-                                        "route": " ",
+                                        "route": "/apiDetails/startApi",
                                         "class": ""
                                     },
                                     {
