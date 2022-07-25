@@ -232,7 +232,21 @@
                             {
                                 "headid": "error",
                                 "first": "Error Codes",
-                                "route": "/apiDetails/startApi"
+                                "route": "/apiDetails/startApi",
+                                "secTabList":[
+                                    {
+                                        "li": "",
+                                        "id": "",
+                                        "route": "",
+                                        "class": ""
+                                    },
+                                    {
+                                        "li": "",
+                                        "id": "",
+                                        "route": "",
+                                        "class": ""
+                                    }
+                                ]
                             }
                         ]
                     }
