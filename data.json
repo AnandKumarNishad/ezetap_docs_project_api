@@ -236,13 +236,13 @@
                                 "secTabList":[
                                     {
                                         "li": "",
-                                        "id": "",
+                                        "id": "a",
                                         "route": "",
                                         "class": ""
                                     },
                                     {
                                         "li": "",
-                                        "id": "",
+                                        "id": "ab",
                                         "route": "",
                                         "class": ""
                                     }
