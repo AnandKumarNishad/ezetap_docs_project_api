@@ -156,7 +156,7 @@
                         "SecTab":[
                             {
                                 "headid": "p2p",
-                                "expanded": "true",
+                                "expanded": "false",
                                 "first": "Push To Pay",
                                 "route": "/apiDetails/startApi",
                                 "secTabList":[
