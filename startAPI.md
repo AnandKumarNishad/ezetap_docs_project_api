@@ -60,7 +60,7 @@ This API must be invoked by the billing application to send payment notification
 
 </section>
 
-<section id = "sampleReqRes">
+<!-- <section id = "sampleReqRes">
 
 #### Sample Request & Response
 
@@ -74,6 +74,6 @@ This API must be invoked by the billing application to send payment notification
 </tbody>
 </table>
 
-</section>
+</section> -->
 
 </section>
