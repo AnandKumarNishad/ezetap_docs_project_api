@@ -228,6 +228,19 @@
                                         "class": ""
                                     }
                                 ]
+                            },
+                            {
+                                "headid": "error",
+                                "first": "Error Codes",
+                                "route": "/apiDetails/startApi",
+                                "secTabList":[
+                                    {
+                                        "li": "",
+                                        "id": "",
+                                        "route": "",
+                                        "class": ""
+                                    }
+                                ]
                             }
                         ]
                     }
