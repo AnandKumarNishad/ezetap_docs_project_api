@@ -92,9 +92,8 @@
                 "index": "9",
                 "language": "Response",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": {{"appkey":"< account appkey >", "username":"<admin/agent username>", " origP2pRequestId ":"< Use the one returned by the start API >" }|{"success": true, "messageCode": "P2P_DEVICE_TXN_DONE", "message":"Transaction done on device, Please look at Txn status.", "realCode": "P2P_DEVICE_TXN_DONE", "setting": {}, "apps": [], "amount": 111, "amountOriginal": 111, "currencyCode": "INR", "customerMobile": "", "customerReceiptUrl": "http://d.eze.cc/r/o/pX9RhCGa", "externalRefNumber": "a1b1", "txnId": "170420065424513E020067042", "merchantName": "BhaskaranNew", "nonceStatus": "OPEN", "orgCode": "BHASKARANNEW_59", "merchantCode": "BHASKARANNEW_59", "paymentCardType": "UNKNOWN", "paymentMode": "CASH", "postingDate": 1492671265000, "processCode": "_DEF_PROC", "settlementStatus": "SETTLED", "signatureId": "NR", "status": "AUTHORIZED", "states": ["SETTLED"], "userMobile": "4563219870", "txnType": "CHARGE", "userAgreement": "", "signable": false, "voidable": false, "refundable": true, "chargeSlipDate": "2017-04-20T12:24:25+0530", "readableChargeSlipDate": "20/04/2017 12:24:25", "settlementTime": 1492671265000, "receiptUrl": "http://d.eze.cc/r/o/pX9RhCGa", "signReqd": false, "txnTypeDesc": "Charge", "acquirerCode": "NONE", "orderNumber": "a1b1", "totalAmount": 111, "tipEnabled": false, "callTC": false, "acquisitionId": "", "acquisitionKey": "", "externalDevice": false, "txnMetadata": []}}
+                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
             }
         ]
     }
 }
-
