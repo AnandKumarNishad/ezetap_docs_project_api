@@ -155,6 +155,7 @@
                         "arrImgAlt": "double arrow",
                         "SecTab":[
                             {
+                                "headid": "p2p",
                                 "first": "Push To Pay",
                                 "route": "/apiDetails/startApi",
                                 "secTabList":[
@@ -179,6 +180,7 @@
                                 ]
                             },
                             {
+                                "headid": "userAgree",
                                 "first": "User Agreement",
                                 "route": "/apiDetails/startApi",
                                 "secTabList":[
@@ -203,6 +205,7 @@
                                 ]
                             },
                             {
+                                "headid": "userConsent",
                                 "first": "User Consent",
                                 "route": "/apiDetails/startApi",
                                 "secTabList":[
