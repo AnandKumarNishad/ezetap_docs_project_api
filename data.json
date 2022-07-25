@@ -180,24 +180,24 @@
                             },
                             {
                                 "first": "User Agreement",
-                                "route": "#",
+                                "route": "/apiDetails/startApi",
                                 "secTabList":[
                                     {
                                         "li": "Create API",
                                         "id": "createua",
-                                        "route": "#",
+                                        "route": " ",
                                         "class": ""
                                     },
                                     {
                                         "li": "Update API",
                                         "id": "updateua",
-                                        "route": "#",
+                                        "route": " ",
                                         "class": ""
                                     },
                                     {
                                         "li": "Fetch API",
                                         "id": "fetchua",
-                                        "route": "#",
+                                        "route": "/apiDetails/startApi",
                                         "class": ""
                                     }
                                 ]
