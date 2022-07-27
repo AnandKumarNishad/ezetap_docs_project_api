@@ -15,29 +15,29 @@ This API must be invoked by the billing application to send payment notification
 
 <table class = "params">
 <thead class = "paramhead">
-<tr><th class = "parameter">Parameter</th><th class = "datatype">Datatype</th><th class = "Desc">Description</th></tr>
+<tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td>appKey</td><td>String(50)</td><td>APP key shared by Ezetap (Mandatory)</td></tr>
-<tr><td>pushTo</td><td>Json with “deviceId” as String(250)</td><td>PushTo is a json with destination info like Device id of the pos on which notification will be sent (Mandatory) Please refer the syntax in Sample request 'pushTo': { 'deviceId': 'device serial number'|ezetap_android'}}</td></tr>
-<tr><td>username</td><td>String(20)</td><td>Username must be passed (Mandatory)</td></tr>
-<tr><td>description</td><td>String(50)</td><td>It describes the notification purpose (Optional)</td></tr>
-<tr><td>amount</td><td>BigDecimal</td><td>Transaction amount (Mandatory)</td></tr>
-<tr><td>amountCashBack</td><td>BigDecimal</td><td>CashBack amount if required (Optional)</td></tr>
-<tr><td>amountAdditional</td><td>BigDecimal</td><td>Additional Amount if required (Optional)</td></tr>
-<tr><td>externalRefNumber</td><td>String</td><td>Reference number of the bill (Mandatory). This must be unique for every transaction.</td></tr>
-<tr><td>customerMobileNumber</td><td>String</td><td>Customer mobile number (Optional)</td></tr>
-<tr><td>customerEmail</td><td>String</td><td>Customer's email id (Optional)</td></tr>
-<tr><td>customerName</td><td>String</td><td>Customer's Name (Optional)</td></tr>
-<tr><td>accountLabels</td><td>List of Strings</td><td>Labels is the list of tags. It is used for passing MID/TID labels in multi-TID case (Optional)</td></tr>
-<tr><td>externalRefNumber2</td><td>String</td><td>Optional</td></tr>
-<tr><td>externalRefNumber3</td><td>String</td><td>Optional</td></tr>
-<tr><td>externalRefNumber4</td><td>String</td><td>Optional</td></tr>
-<tr><td>externalRefNumbers</td><td>set of Strings</td><td>Optional</td></tr>
-<tr><td>additionalData</td><td>Json String</td><td>AdditionalData is json (Optional)</td></tr>
-<tr><td>orgCode</td><td>String</td><td>Merchant's orgCode (Optional)</td></tr>
-<tr><td>paymentBy</td><td>String</td><td>For service fees configuration, this is DEBIT|CREDIT (Optional)</td></tr>
-<tr><td>paymentMode</td><td>String</td><td>For service fees configuration, this is CARD (Optional)</td></tr>
+<tr><td><div class = "att">appKey</div><div class = "dt" ><span>String(50)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>APP key shared by Ezetap</td></tr>
+<tr><td><div class = "att">pushTo</div><div class = "dt" ><span>Json with “deviceId” as String(250)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>PushTo is a json with destination info like Device id of the pos on which notification will be sent. Please refer the syntax in Sample request 'pushTo': { 'deviceId': 'device serial number'|ezetap_android'}}</td></tr>
+<tr><td><div class = "att">username</div><div class = "dt" ><span>String(20)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>Username must be passed</td></tr>
+<tr><td><div class = "att">description</div><div class = "dt" ><span>String(50)</span></div><div class = "dt" ><span>Optional</span></div></td><td>It describes the notification purpose</td></tr>
+<tr><td><div class = "att">amount</div><div class = "dt" ><span>BigDecimal</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>Transaction amount</td></tr>
+<tr><td><div class = "att">amountCashBack</div><div class = "dt" ><span>BigDecimal</span></div><div class = "dt" ><span>Optional</span></div></td><td>CashBack amount if required</td></tr>
+<tr><td><div class = "att">amountAdditional</div><div class = "dt" ><span>BigDecimal</span></div><div class = "dt" ><span>Optional</span></div></td><td>Additional Amount if required</td></tr>
+<tr><td><div class = "att">externalRefNumber</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>Reference number of the bill. This must be unique for every transaction.</td></tr>
+<tr><td><div class = "att">customerMobileNumber</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Customer mobile number</td></tr>
+<tr><td><div class = "att">customerEmail</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Customer's email id</td></tr>
+<tr><td><div class = "att">customerName</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Customer's Name</td></tr>
+<tr><td><div class = "att">accountLabels</div><div class = "dt" ><span>List of String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Labels is the list of tags. It is used for passing MID/TID labels in multi-TID case</td></tr>
+<tr><td><div class = "att">externalRefNumber2</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td></td></tr>
+<tr><td><div class = "att">externalRefNumber3</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td></td></tr>
+<tr><td><div class = "att">externalRefNumber4</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td></td></tr>
+<tr><td><div class = "att">externalRefNumbers</div><div class = "dt" ><span>Set of String</span></div><div class = "dt" ><span>Optional</span></div></td><td></td></tr>
+<tr><td><div class = "att">additionalData</div><div class = "dt" ><span>Json String</span></div><div class = "dt" ><span>Optional</span></div></td><td>AdditionalData is json</td></tr>
+<tr><td><div class = "att">orgCode</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Merchant's orgCode</td></tr>
+<tr><td><div class = "att">paymentBy</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>For service fees configuration, this is DEBIT|CREDIT</td></tr>
+<tr><td><div class = "att">paymentMode</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>For service fees configuration, this is CARD</td></tr>
 </tbody>
 </table>
 
@@ -49,12 +49,12 @@ This API must be invoked by the billing application to send payment notification
 
 <table class = "params">
 <thead class = "paramhead">
-<tr><th class = "parameter">Parameter</th><th class = "datatype">Datatype</th><th class = "Desc">Description</th></tr>
+<tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td>success</td><td>Boolean</td><td>Indicates notification has been started successful or not</td></tr>
-<tr><td>errorCode</td><td>String(48)</td><td>Error code if notification has not initiated due to either token issue or wrong deviceId . It is empty for a successful creation</td></tr>
-<tr><td>errorMessage</td><td>String(256)</td><td>Descriptive error message for the above error code on notification initiation. This field will be empty for a successful initiation.</td></tr>
+<tr><td><div class = "att">success</div><div class = "dt" ><span>Boolean</span></div><div class = "dt" ></div></td><td>Indicates notification has been started successful or not</td></tr>
+<tr><td><div class = "att">errorCode</div><div class = "dt" ><span>String(48)</span></div></td><td>Error code if notification has not initiated due to either token issue or wrong deviceId . It is empty for a successful creation</td></tr>
+<tr><td><div class = "att">errorMessage</div><div class = "dt" ><span>String(256)</span></div></td><td>Descriptive error message for the above error code on notification initiation. This field will be empty for a successful initiation.</td></tr>
 </tbody>
 </table>
 
