@@ -21,10 +21,10 @@ Cancellation will happen even when the device has received notification. In such
 <tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td><div class = "att">username</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>Any username</td></tr>
-<tr><td><div class = "att">appKey</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>account appKey</td></tr>
-<tr><td><div class = "att">origP2pRequestId</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>Request ID returned by the start API call</td></tr>
-<tr><td><div class = "att">pushTo</div><div class = "dt" ><span>JSON with "deviceId" as String(250)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>PushTo is a json with destination info like Device id of the pos on which notification is sent<br><br><span class = "refer"> Please refer the syntax in Sample request</span><br>"pushTo": { "deviceId": "< device serial number > | ezetap_android"}<br>}</td></tr>
+<tr><td><div class = "att">username</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>Any username</p></div></td></tr>
+<tr><td><div class = "att">appKey</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>account appKey</p></div></td></tr>
+<tr><td><div class = "att">origP2pRequestId</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>Request ID returned by the start API call</p></div></td></tr>
+<tr><td><div class = "att">pushTo</div><div class = "dt" ><span>JSON with "deviceId" as String(250)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>PushTo is a json with destination info like Device id of the pos on which notification is sent<br><span class = "refertab"> Please refer the syntax in Sample request<br>"pushTo": { "deviceId": "< device serial number > | ezetap_android" }</span></p></div></td></tr>
 </tbody>
 </table>
 
