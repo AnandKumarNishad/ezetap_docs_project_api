@@ -44,49 +44,50 @@
                 "index": "1",
                 "language": "Curl",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": { "appkey":"< account appkey >", "username":"< admin/agent username >", " origP2pRequestId ":"< Use the one returned by the start API >"}
             },
             {
                 "index": "2",
                 "language": "Java",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": { "appkey":"< account appkey >", "username":"< admin/agent username >", " origP2pRequestId ":"< Use the one returned by the start API >"}
+
             },
             {
                 "index": "3",
                 "language": "Python",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}    
+                "json": { "appkey":"< account appkey >", "username":"< admin/agent username >", " origP2pRequestId ":"< Use the one returned by the start API >"}
             },
             {
                 "index": "4",
                 "language": "PHP",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}  
+                "json": { "appkey":"< account appkey >", "username":"< admin/agent username >", " origP2pRequestId ":"< Use the one returned by the start API >"}
             },
             {
                 "index": "5",
                 "language": ".NET",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": { "appkey":"< account appkey >", "username":"< admin/agent username >", " origP2pRequestId ":"< Use the one returned by the start API >"}
             },
             {
                 "index": "6",
                 "language": "Ruby",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": { "appkey":"< account appkey >", "username":"< admin/agent username >", " origP2pRequestId ":"< Use the one returned by the start API >"}
             },
             {
                 "index": "7",
                 "language": "Node.js",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": { "appkey":"< account appkey >", "username":"< admin/agent username >", " origP2pRequestId ":"< Use the one returned by the start API >"}
             },
             {
                 "index": "8",
                 "language": "GO",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": { "appkey":"< account appkey >", "username":"< admin/agent username >", " origP2pRequestId ":"< Use the one returned by the start API >"}
             },
             {
                 "index": "9",
