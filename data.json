@@ -40,7 +40,7 @@
                 "icon": "/images/apiIcon.svg",
                 "iconAlt": "api icon",
                 "text": "API Details",
-                "route": "/apiDetails/startApi"
+                "route": "/apiDetails/pushtopay/startApi"
             }
         ],
         "headerArea": [
@@ -158,24 +158,24 @@
                                 "headid": "p2p",
                                 "expanded": "true",
                                 "first": "Push To Pay",
-                                "route": "/apiDetails/startApi",
+                                "route": "/apiDetails/pushtopay/startApi",
                                 "secTabList":[
                                     {
                                         "li": "Start API",
                                         "id": "start",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "/apiDetails/pushtopay/startApi",
                                         "class": "start"
                                     },
                                     {
                                         "li": "Status API",
                                         "id": "status",
-                                        "route": "/apiDetails/statusApi",
+                                        "route": "/apiDetails/pushtopay/statusApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Cancel API",
                                         "id": "cancel",
-                                        "route": "/apiDetails/cancelApi",
+                                        "route": "/apiDetails/pushtopay/cancelApi",
                                         "class": ""
                                     }
                                 ]
@@ -184,24 +184,24 @@
                                 "headid": "userAgree",
                                 "expanded": "false",
                                 "first": "User Agreement",
-                                "route": "/apiDetails/startApi",
+                                "route": "/apiDetails/useragreement/createApi",
                                 "secTabList":[
                                     {
                                         "li": "Create API",
                                         "id": "createua",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "/apiDetails/useragreement/createApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Update API",
                                         "id": "updateua",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "/apiDetails/useragreement/updateApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Fetch API",
                                         "id": "fetchua",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "/apiDetails/useragreement/fetchApi",
                                         "class": ""
                                     }
                                 ]
@@ -210,24 +210,24 @@
                                 "headid": "userConsent",
                                 "expanded": "false",
                                 "first": "User Consent",
-                                "route": "/apiDetails/startApi",
+                                "route": "/apiDetails/userconcent/createApi",
                                 "secTabList":[
                                     {
                                         "li": "Create API",
                                         "id": "createuc",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "/apiDetails/userconcent/createApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Update API",
                                         "id": "updateuc",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "/apiDetails/userconcent/updateApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Fetch API",
                                         "id": "fetchuc",
-                                        "route": "/apiDetails/startApi",
+                                        "route": "/apiDetails/userconcent/fetchApi",
                                         "class": ""
                                     }
                                 ]
@@ -236,7 +236,7 @@
                                 "headid": "error",
                                 "expanded": "false",
                                 "first": "Error Codes",
-                                "route": "/apiDetails/startApi",
+                                "route": "/apiDetails/errors",
                                 "secTabList":[
                                     {
                                         "li": "",
