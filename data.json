@@ -210,24 +210,24 @@
                                 "headid": "userConsent",
                                 "expanded": "false",
                                 "first": "User Consent",
-                                "route": "/apiDetails/userconcent/createApi",
+                                "route": "/apiDetails/userconsent/createApi",
                                 "secTabList":[
                                     {
                                         "li": "Create API",
                                         "id": "createuc",
-                                        "route": "/apiDetails/userconcent/createApi",
+                                        "route": "/apiDetails/userconsent/createApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Update API",
                                         "id": "updateuc",
-                                        "route": "/apiDetails/userconcent/updateApi",
+                                        "route": "/apiDetails/userconsent/updateApi",
                                         "class": ""
                                     },
                                     {
                                         "li": "Fetch API",
                                         "id": "fetchuc",
-                                        "route": "/apiDetails/userconcent/fetchApi",
+                                        "route": "/apiDetails/userconsent/fetchApi",
                                         "class": ""
                                     }
                                 ]
