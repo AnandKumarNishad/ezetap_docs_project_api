@@ -31,7 +31,7 @@ Once the notification is received on the device,this API must be invoked to retr
 <tr><td><div class = "att">errorMessage</div><div class = "dt"><span>String(256)</span></div></td><td><div class = "descrip"><p>Descriptive error message for the above error code on notification status. This field will be empty for a successful initiation.</p></div></td></tr>
 <tr><td><div class = "att">message</div><div class = "dt"><span>String</span></div></td><td><div class = "descrip"><p>It is descriptive information of pushToPay status, it also tells what the status is.</p></div></td></tr>
 <tr><td><div class = "att">messageCode</div><div class = "dt"><span>String</span></div></td><td><div class = "descrip"><p>Message Code if notification status not found.</p></div></td></tr>
-<tr><td><div class = "att">status</div><div class = "dt"><span>String</span></div><div class = "dt"><span>Important Field</span></div></td><td><div class = "descrip"><p>Only if status is "Authorized", payment is successful</p></div></td></tr>
+<tr><td><div class = "att refertab">status</div><div class = "dt"><span>String</span></div><div class = "dt refertab"><span>Important Field</span></div></td><td><div class = "descrip refertab"><p>Only if status is "Authorized", payment is successful</p></div></td></tr>
 </tbody>
 </table>
 
