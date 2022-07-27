@@ -18,26 +18,26 @@ This API must be invoked by the billing application to send payment notification
 <tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td><div class = "att">appKey</div><div class = "dt" ><span>String(50)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>APP key shared by Ezetap</td></tr>
-<tr><td><div class = "att">pushTo</div><div class = "dt" ><span>Json with “deviceId” as String(250)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>PushTo is a json with destination info like Device id of the pos on which notification will be sent. Please refer the syntax in Sample request 'pushTo': { 'deviceId': 'device serial number'|ezetap_android'}}</td></tr>
-<tr><td><div class = "att">username</div><div class = "dt" ><span>String(20)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>Username must be passed</td></tr>
-<tr><td><div class = "att">description</div><div class = "dt" ><span>String(50)</span></div><div class = "dt" ><span>Optional</span></div></td><td>It describes the notification purpose</td></tr>
-<tr><td><div class = "att">amount</div><div class = "dt" ><span>BigDecimal</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>Transaction amount</td></tr>
-<tr><td><div class = "att">amountCashBack</div><div class = "dt" ><span>BigDecimal</span></div><div class = "dt" ><span>Optional</span></div></td><td>CashBack amount if required</td></tr>
-<tr><td><div class = "att">amountAdditional</div><div class = "dt" ><span>BigDecimal</span></div><div class = "dt" ><span>Optional</span></div></td><td>Additional Amount if required</td></tr>
-<tr><td><div class = "att">externalRefNumber</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td>Reference number of the bill. This must be unique for every transaction.</td></tr>
-<tr><td><div class = "att">customerMobileNumber</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Customer mobile number</td></tr>
-<tr><td><div class = "att">customerEmail</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Customer's email id</td></tr>
-<tr><td><div class = "att">customerName</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Customer's Name</td></tr>
-<tr><td><div class = "att">accountLabels</div><div class = "dt" ><span>List of String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Labels is the list of tags. It is used for passing MID/TID labels in multi-TID case</td></tr>
-<tr><td><div class = "att">externalRefNumber2</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td></td></tr>
-<tr><td><div class = "att">externalRefNumber3</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td></td></tr>
-<tr><td><div class = "att">externalRefNumber4</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td></td></tr>
-<tr><td><div class = "att">externalRefNumbers</div><div class = "dt" ><span>Set of String</span></div><div class = "dt" ><span>Optional</span></div></td><td></td></tr>
-<tr><td><div class = "att">additionalData</div><div class = "dt" ><span>Json String</span></div><div class = "dt" ><span>Optional</span></div></td><td>AdditionalData is json</td></tr>
-<tr><td><div class = "att">orgCode</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>Merchant's orgCode</td></tr>
-<tr><td><div class = "att">paymentBy</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>For service fees configuration, this is DEBIT|CREDIT</td></tr>
-<tr><td><div class = "att">paymentMode</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td>For service fees configuration, this is CARD</td></tr>
+<tr><td><div class = "att">appKey</div><div class = "dt" ><span>String(50)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>APP key shared by Ezetap</td></tr>
+<tr><td><div class = "att">pushTo</div><div class = "dt" ><span>Json with “deviceId” as String(250)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>PushTo is a json with destination info like Device id of the pos on which notification will be sent. Please refer the syntax in Sample request 'pushTo': { 'deviceId': 'device serial number'|ezetap_android'}}</td></tr>
+<tr><td><div class = "att">username</div><div class = "dt" ><span>String(20)</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>Username must be passed</td></tr>
+<tr><td><div class = "att">description</div><div class = "dt" ><span>String(50)</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>It describes the notification purpose</td></tr>
+<tr><td><div class = "att">amount</div><div class = "dt" ><span>BigDecimal</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>Transaction amount</td></tr>
+<tr><td><div class = "att">amountCashBack</div><div class = "dt" ><span>BigDecimal</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>CashBack amount if required</td></tr>
+<tr><td><div class = "att">amountAdditional</div><div class = "dt" ><span>BigDecimal</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>Additional Amount if required</td></tr>
+<tr><td><div class = "att">externalRefNumber</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Mandatory</span></div></td><td><div class = "descrip" ><p>Reference number of the bill. This must be unique for every transaction.</td></tr>
+<tr><td><div class = "att">customerMobileNumber</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>Customer mobile number</td></tr>
+<tr><td><div class = "att">customerEmail</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>Customer's email id</td></tr>
+<tr><td><div class = "att">customerName</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>Customer's Name</td></tr>
+<tr><td><div class = "att">accountLabels</div><div class = "dt" ><span>List of String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>Labels is the list of tags. It is used for passing MID/TID labels in multi-TID case</td></tr>
+<tr><td><div class = "att">externalRefNumber2</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>-</td></tr>
+<tr><td><div class = "att">externalRefNumber3</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>-</td></tr>
+<tr><td><div class = "att">externalRefNumber4</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>-</td></tr>
+<tr><td><div class = "att">externalRefNumbers</div><div class = "dt" ><span>Set of String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>-</td></tr>
+<tr><td><div class = "att">additionalData</div><div class = "dt" ><span>Json String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>AdditionalData is json</td></tr>
+<tr><td><div class = "att">orgCode</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>Merchant's orgCode</td></tr>
+<tr><td><div class = "att">paymentBy</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>For service fees configuration, this is DEBIT|CREDIT</td></tr>
+<tr><td><div class = "att">paymentMode</div><div class = "dt" ><span>String</span></div><div class = "dt" ><span>Optional</span></div></td><td><div class = "descrip" ><p>For service fees configuration, this is CARD</td></tr>
 </tbody>
 </table>
 
@@ -52,9 +52,9 @@ This API must be invoked by the billing application to send payment notification
 <tr><th class = "parameter">Attribute</th><th class = "Desc">Description</th></tr>
 </thead>
 <tbody>
-<tr><td><div class = "att">success</div><div class = "dt" ><span>Boolean</span></div><div class = "dt" ></div></td><td>Indicates notification has been started successful or not</td></tr>
-<tr><td><div class = "att">errorCode</div><div class = "dt" ><span>String(48)</span></div></td><td>Error code if notification has not initiated due to either token issue or wrong deviceId . It is empty for a successful creation</td></tr>
-<tr><td><div class = "att">errorMessage</div><div class = "dt" ><span>String(256)</span></div></td><td>Descriptive error message for the above error code on notification initiation. This field will be empty for a successful initiation.</td></tr>
+<tr><td><div class = "att">success</div><div class = "dt" ><span>Boolean</span></div><div class = "dt" ></div></td><td><div class = "descrip" ><p>Indicates notification has been started successful or not</td></tr>
+<tr><td><div class = "att">errorCode</div><div class = "dt" ><span>String(48)</span></div></td><td><div class = "descrip" ><p>Error code if notification has not initiated due to either token issue or wrong deviceId . It is empty for a successful creation</td></tr>
+<tr><td><div class = "att">errorMessage</div><div class = "dt" ><span>String(256)</span></div></td><td><div class = "descrip" ><p>Descriptive error message for the above error code on notification initiation. This field will be empty for a successful initiation.</td></tr>
 </tbody>
 </table>
 
