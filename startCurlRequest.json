@@ -44,57 +44,57 @@
                 "index": "1",
                 "language": "Curl",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": {"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01", "username": "8087750622", "customerMobileNumber": "8087750863", "amount": "10300", "externalRefNumber": "INVOICE_299", "externalRefNumber2": "500007080", "externalRefNumber3": "7000", "externalRefNumber4": "500008080", "externalRefNumber5": "3000", "externalRefNumber6": "500007070", "externalRefNumber7": "", "externalRefNumbers": [ "{\"Account 4\":\"200\"}", "{\"Account 5\":\"100\"}" ], "pushTo": { "deviceId": "0821006725, ezetap_android"}}
             },
             {
                 "index": "2",
                 "language": "Java",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": {"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01", "username": "8087750622", "customerMobileNumber": "8087750863", "amount": "10300", "externalRefNumber": "INVOICE_299", "externalRefNumber2": "500007080", "externalRefNumber3": "7000", "externalRefNumber4": "500008080", "externalRefNumber5": "3000", "externalRefNumber6": "500007070", "externalRefNumber7": "", "externalRefNumbers": [ "{\"Account 4\":\"200\"}", "{\"Account 5\":\"100\"}" ], "pushTo": { "deviceId": "0821006725, ezetap_android"}}
+
             },
             {
                 "index": "3",
                 "language": "Python",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}    
+                "json": {"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01", "username": "8087750622", "customerMobileNumber": "8087750863", "amount": "10300", "externalRefNumber": "INVOICE_299", "externalRefNumber2": "500007080", "externalRefNumber3": "7000", "externalRefNumber4": "500008080", "externalRefNumber5": "3000", "externalRefNumber6": "500007070", "externalRefNumber7": "", "externalRefNumbers": [ "{\"Account 4\":\"200\"}", "{\"Account 5\":\"100\"}" ], "pushTo": { "deviceId": "0821006725, ezetap_android"}}
             },
             {
                 "index": "4",
                 "language": "PHP",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}  
+                "json": {"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01", "username": "8087750622", "customerMobileNumber": "8087750863", "amount": "10300", "externalRefNumber": "INVOICE_299", "externalRefNumber2": "500007080", "externalRefNumber3": "7000", "externalRefNumber4": "500008080", "externalRefNumber5": "3000", "externalRefNumber6": "500007070", "externalRefNumber7": "", "externalRefNumbers": [ "{\"Account 4\":\"200\"}", "{\"Account 5\":\"100\"}" ], "pushTo": { "deviceId": "0821006725, ezetap_android"}}
             },
             {
                 "index": "5",
                 "language": ".NET",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": {"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01", "username": "8087750622", "customerMobileNumber": "8087750863", "amount": "10300", "externalRefNumber": "INVOICE_299", "externalRefNumber2": "500007080", "externalRefNumber3": "7000", "externalRefNumber4": "500008080", "externalRefNumber5": "3000", "externalRefNumber6": "500007070", "externalRefNumber7": "", "externalRefNumbers": [ "{\"Account 4\":\"200\"}", "{\"Account 5\":\"100\"}" ], "pushTo": { "deviceId": "0821006725, ezetap_android"}}
             },
             {
                 "index": "6",
                 "language": "Ruby",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": {"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01", "username": "8087750622", "customerMobileNumber": "8087750863", "amount": "10300", "externalRefNumber": "INVOICE_299", "externalRefNumber2": "500007080", "externalRefNumber3": "7000", "externalRefNumber4": "500008080", "externalRefNumber5": "3000", "externalRefNumber6": "500007070", "externalRefNumber7": "", "externalRefNumbers": [ "{\"Account 4\":\"200\"}", "{\"Account 5\":\"100\"}" ], "pushTo": { "deviceId": "0821006725, ezetap_android"}}
             },
             {
                 "index": "7",
                 "language": "Node.js",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": {"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01", "username": "8087750622", "customerMobileNumber": "8087750863", "amount": "10300", "externalRefNumber": "INVOICE_299", "externalRefNumber2": "500007080", "externalRefNumber3": "7000", "externalRefNumber4": "500008080", "externalRefNumber5": "3000", "externalRefNumber6": "500007070", "externalRefNumber7": "", "externalRefNumbers": [ "{\"Account 4\":\"200\"}", "{\"Account 5\":\"100\"}" ], "pushTo": { "deviceId": "0821006725, ezetap_android"}}
             },
             {
                 "index": "8",
                 "language": "GO",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "amount": 50000, "currency": "INR", "receipt": "receipt#1", "notes":{ "key1": "value3", "key2": "value2" }}
+                "json": {"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01", "username": "8087750622", "customerMobileNumber": "8087750863", "amount": "10300", "externalRefNumber": "INVOICE_299", "externalRefNumber2": "500007080", "externalRefNumber3": "7000", "externalRefNumber4": "500008080", "externalRefNumber5": "3000", "externalRefNumber6": "500007070", "externalRefNumber7": "", "externalRefNumbers": [ "{\"Account 4\":\"200\"}", "{\"Account 5\":\"100\"}" ], "pushTo": { "deviceId": "0821006725, ezetap_android"}}
             },
             {
                 "index": "9",
                 "language": "Response",
                 "html": " -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] <br> -X GET https://api.ezetap.com/v1/startapi <br> -H <span> 'content-type: application/json'</span> -d <br>",
-                "json": { "success": true, "messageCode": null, "message": null, "errorCode": null, "errorMessage": null, "realCode": null, "apiMessageTitle": null, "apiMessage": null, "apiMessageText": null, "apiWarning": null, "p2pRequestId": "200205214646781E020059712"}
+                "json": {"appKey": "3cecb4d3-6719-47fe-8259-70b6a7ae6d01", "username": "8087750622", "customerMobileNumber": "8087750863", "amount": "10300", "externalRefNumber": "INVOICE_299", "externalRefNumber2": "500007080", "externalRefNumber3": "7000", "externalRefNumber4": "500008080", "externalRefNumber5": "3000", "externalRefNumber6": "500007070", "externalRefNumber7": "", "externalRefNumbers": [ "{\"Account 4\":\"200\"}", "{\"Account 5\":\"100\"}" ], "pushTo": { "deviceId": "0821006725, ezetap_android"}}
             }
         ]
     }
 }
-
