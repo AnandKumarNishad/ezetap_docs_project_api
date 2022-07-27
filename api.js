@@ -197,3 +197,30 @@ app.get("/cancelcurl", (req, res) => {
         res.send(cancelcurldata)
     }
 })
+
+app.get("/createapi", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(startmdRead())
+    }
+})
+
+app.get("/updateapi", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(statusmdRead())
+    }
+})
+
+app.get("/fetchapi", (req, res) => {
+    if(params === ""){
+        console.log("Data Not Found")
+        res.sendStatus(500)
+    } else {
+        res.send(cancelmdRead())
+    }
+})
