@@ -1,6 +1,6 @@
 ## Status API
 
-<h3 class= "use">Use case</h3>
+<h3 class= "use">Use Case</h3>
 <hr>
 
 Once the notification is received on the device,this API must be invoked to retrieve the status of payment.

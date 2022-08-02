@@ -1,4 +1,4 @@
-# Solution for Android POS device
+# Push To Pay
 
 #### 1. What is Push to Pay Solution?
 
