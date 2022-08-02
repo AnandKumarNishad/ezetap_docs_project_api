@@ -51,7 +51,7 @@ We have a set of APIs available to enable integration with billing system. Below
 3. Cancel API
 
 > **NOTE:** All request/responses are of type application/json
-zz
+
 Before these APIs are invoked, please ensure the following:
 
 1. Device is connected to Internet
